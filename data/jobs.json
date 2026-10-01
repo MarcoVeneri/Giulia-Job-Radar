@@ -598,6 +598,30 @@
       "active": true,
       "firstSeenAt": "2026-10-01T15:08:25+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "unicoop-firenze-addetto-vendite-695",
+      "date": "2026-06-30",
+      "company": "Unicoop Firenze",
+      "title": "Addetto/a alle vendite - Firenze",
+      "location": "Firenze (FI)",
+      "workMode": "In presenza",
+      "contract": "Tempo determinato · Part time 20H",
+      "salary": "11.519,27 € RAL per 20H",
+      "category": "Vendita",
+      "score": 9.6,
+      "source": "Unicoop Firenze Careers",
+      "url": "https://unicoop.arca24.careers/job/view-job.php?id=695-addetto-a-alle-vendite-firenze-firenze&language=it",
+      "summary": "Vendita nei reparti a libero servizio e serviti, orientamento al cliente e lavoro su turni nei punti vendita di Firenze.",
+      "checks": [
+        "Firenze città",
+        "CCNL Distribuzione Cooperativa 5° livello",
+        "Part time 20H"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:23:00+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
