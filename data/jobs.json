@@ -44,6 +44,27 @@
       "active": true,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
       "firstSeenRun": "14:27"
+    },
+    {
+      "id": "unicomm-terranuova-1144",
+      "date": "2026-10-01",
+      "company": "Unicomm S.r.l. / GMF",
+      "title": "Addetti/e vendita GDO - rif.1144",
+      "location": "Terranuova Bracciolini (AR)",
+      "workMode": "In presenza",
+      "contract": "Full time e Part time",
+      "salary": "Non dichiarato",
+      "category": "Vendita",
+      "source": "Indeed / Unicomm",
+      "url": "https://it.indeed.com/viewjob?jk=34546d468298aa31",
+      "summary": "Nuova apertura GDO con posizioni in gastronomia, ortofrutta, sala e cassa.",
+      "checks": [
+        "Sede verificata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T14:27:53+02:00",
+      "firstSeenRun": "14:27"
     }
   ],
   "audit": {
@@ -52,8 +73,8 @@
       "14:27-extra": {
         "status": "partial",
         "queriesRun": 46,
-        "newJobs": 2,
-        "activeJobs": 2
+        "newJobs": 3,
+        "activeJobs": 3
       }
     }
   }
