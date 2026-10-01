@@ -268,6 +268,29 @@
       "active": true,
       "firstSeenAt": "2026-10-01T15:08:25+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "nkd-figline-pt-4458191869",
+      "date": "2026-09-17",
+      "company": "NKD Group",
+      "title": "Commessa/o PT Figline Valdarno - Nuova apertura",
+      "location": "Figline e Incisa Valdarno (FI)",
+      "workMode": "In presenza",
+      "contract": "Part time · temporaneo",
+      "salary": "23.241–27.723 € annui full-time equivalente",
+      "category": "Vendita",
+      "score": 9.5,
+      "source": "LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/commessa-o-pt-figline-valdarno-nuova-apertura-at-nkd-group-4458191869",
+      "summary": "Vendita, cassa, rifornimento, allestimento e riordino per nuova apertura a Figline.",
+      "checks": [
+        "Sede nel perimetro",
+        "Esperienza pregressa nella vendita richiesta"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:08:25+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
