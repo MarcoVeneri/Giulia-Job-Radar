@@ -149,6 +149,27 @@
       "active": true,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
       "firstSeenRun": "14:27"
+    },
+    {
+      "id": "pellegrini-firenze-ris3294",
+      "date": "2026-10-01",
+      "company": "Pellegrini S.p.A.",
+      "title": "Addetto/a servizi mensa - ristorazione",
+      "location": "Firenze (FI)",
+      "workMode": "In presenza",
+      "contract": "Tempo determinato 3 mesi · Part-time",
+      "salary": "Non dichiarato",
+      "category": "Ristorazione",
+      "source": "Pellegrini Careers",
+      "url": "https://lavoraconnoi.gruppopellegrini.it/candidature/ricercheincorso.aspx",
+      "summary": "Servizio mensa, porzionamento, lavaggio e riassetto cucina in ristorante aziendale.",
+      "checks": [
+        "Sede verificata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T14:27:53+02:00",
+      "firstSeenRun": "14:27"
     }
   ],
   "audit": {
@@ -157,8 +178,8 @@
       "14:27-extra": {
         "status": "partial",
         "queriesRun": 46,
-        "newJobs": 7,
-        "activeJobs": 7
+        "newJobs": 8,
+        "activeJobs": 8
       }
     }
   }
