@@ -107,6 +107,27 @@
       "active": true,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
       "firstSeenRun": "14:27"
+    },
+    {
+      "id": "umana-arezzo-314237",
+      "date": "2026-09-21",
+      "company": "Supermercato tramite Umana",
+      "title": "Addetto banco gastronomia GDO",
+      "location": "Arezzo (AR)",
+      "workMode": "In presenza",
+      "contract": "Non dichiarato",
+      "salary": "1.600–1.800 € lordi/mese",
+      "category": "Ristorazione",
+      "source": "Umana",
+      "url": "https://www.umana.it/per-le-persone/offerte-di-lavoro/addetto-banco-gastronomia-gdo/314237/",
+      "summary": "Banco gastronomia in supermercato nell'area di Arezzo.",
+      "checks": [
+        "Sede verificata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T14:27:53+02:00",
+      "firstSeenRun": "14:27"
     }
   ],
   "audit": {
@@ -115,8 +136,8 @@
       "14:27-extra": {
         "status": "partial",
         "queriesRun": 46,
-        "newJobs": 5,
-        "activeJobs": 5
+        "newJobs": 6,
+        "activeJobs": 6
       }
     }
   }
