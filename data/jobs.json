@@ -385,6 +385,30 @@
       "active": true,
       "firstSeenAt": "2026-10-01T15:08:25+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "axl-confezionamento-farmaceutico-figline-4470872272",
+      "date": "2026-09-29",
+      "company": "Azienda farmaceutica tramite AxL",
+      "title": "Addetto/a al confezionamento farmaceutico",
+      "location": "Figline e Incisa Valdarno (FI)",
+      "workMode": "In presenza",
+      "contract": "Non dichiarato",
+      "salary": "Non dichiarato",
+      "category": "Produzione",
+      "score": 9.2,
+      "source": "AxL / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/addetto-a-al-confezionamento-farmaceutico-at-axl-s-p-a-agenzia-per-il-lavoro-4470872272",
+      "summary": "Confezionamento di prodotti farmaceutici su macchine specifiche in ambiente produttivo.",
+      "checks": [
+        "Esperienza minima confezionamento richiesta",
+        "Provenienza alimentare/pelletteria valutata",
+        "Disponibilità al lavoro notturno richiesta"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:08:25+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
