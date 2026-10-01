@@ -478,6 +478,30 @@
       "active": true,
       "firstSeenAt": "2026-10-01T15:08:25+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "openjobmetis-assemblaggio-confezionamento-figline-136602",
+      "date": "2026-09-24",
+      "company": "Azienda cliente tramite Openjobmetis",
+      "title": "Addetta/Addetto assemblaggio e montaggio manuale",
+      "location": "Figline e Incisa Valdarno (FI)",
+      "workMode": "In presenza",
+      "contract": "Somministrazione tempo determinato · finalizzata all'inserimento",
+      "salary": "20.000–23.000 € annui",
+      "category": "Produzione",
+      "score": 9.4,
+      "source": "Openjobmetis",
+      "url": "https://www.openjobmetis.it/it/candidati/offerte-di-lavoro/addettaaddetto-assemblaggio-e-montaggio-manuel-136602",
+      "summary": "Assemblaggio, confezionamento e imballo di piccoli prodotti; valorizzata esperienza proveniente dalla pelletteria.",
+      "checks": [
+        "Valdarno fiorentino",
+        "Pelletteria indicata come esperienza compatibile",
+        "Full time lun-ven"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:08:25+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
