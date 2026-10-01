@@ -455,6 +455,29 @@
       "active": true,
       "firstSeenAt": "2026-10-01T15:08:25+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "chefexpress-arezzo-crew",
+      "date": "2026-10-01",
+      "company": "Chef Express",
+      "title": "Addetto/a alla ristorazione / Crew - Stazione di Arezzo",
+      "location": "Arezzo (AR)",
+      "workMode": "In presenza",
+      "contract": "Non dichiarato",
+      "salary": "Non dichiarato",
+      "category": "Ristorazione",
+      "score": 9.5,
+      "source": "Chef Express Careers",
+      "url": "https://www.chefexpress.it/punto-vendita/CENTRO/TOSCANA/",
+      "summary": "Ruolo operativo di ristorazione presso la stazione di Arezzo.",
+      "checks": [
+        "Arezzo città",
+        "Posizione presente nella career page Toscana"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:08:25+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
