@@ -245,6 +245,29 @@
       "active": true,
       "firstSeenAt": "2026-10-01T15:08:25+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "nkd-figline-ft-4466580141",
+      "date": "2026-10-01",
+      "company": "NKD Group",
+      "title": "Commessa/o FT 40H Figline Valdarno",
+      "location": "Figline e Incisa Valdarno (FI)",
+      "workMode": "In presenza",
+      "contract": "Full time",
+      "salary": "23.241–27.723 € annui",
+      "category": "Vendita",
+      "score": 9.7,
+      "source": "LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/commessa-o-ft-40h-figline-valdarno-at-nkd-group-4466580141",
+      "summary": "Assistenza cliente, cassa, rifornimento merce, allestimento negozio, promozioni e riordino locali.",
+      "checks": [
+        "Sede nel perimetro",
+        "Esperienza pregressa nella vendita richiesta"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:08:25+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
