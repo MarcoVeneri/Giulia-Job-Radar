@@ -65,6 +65,27 @@
       "active": true,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
       "firstSeenRun": "14:27"
+    },
+    {
+      "id": "manpower-montevarchi-1040609",
+      "date": "2026-09-10",
+      "company": "Azienda alimentare tramite Manpower",
+      "title": "Addetta/o alle vendite e confezionamento alimentare",
+      "location": "Montevarchi (AR)",
+      "workMode": "In presenza",
+      "contract": "Tempo determinato · iniziale part-time, passaggio a full-time",
+      "salary": "22.000–23.000 € annui",
+      "category": "Vendita",
+      "source": "Manpower",
+      "url": "https://www.manpower.it/it/annuncio-lavoro/consumer-products/produzione/addettao-al-confezionamento-alimentare-montevarchi/1040609",
+      "summary": "Vendita diretta, riordino area vendita e confezionamento alimentare.",
+      "checks": [
+        "Sede verificata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T14:27:53+02:00",
+      "firstSeenRun": "14:27"
     }
   ],
   "audit": {
@@ -73,8 +94,8 @@
       "14:27-extra": {
         "status": "partial",
         "queriesRun": 46,
-        "newJobs": 3,
-        "activeJobs": 3
+        "newJobs": 4,
+        "activeJobs": 4
       }
     }
   }
