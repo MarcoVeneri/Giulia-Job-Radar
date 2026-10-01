@@ -314,6 +314,29 @@
       "active": true,
       "firstSeenAt": "2026-10-01T15:08:25+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "eurospin-montevarchi-4453102297",
+      "date": "2026-09-01",
+      "company": "Eurospin Italia S.p.A.",
+      "title": "Addetti/e vendita - Personale Punto Vendita",
+      "location": "Montevarchi (AR)",
+      "workMode": "In presenza",
+      "contract": "Full time / Part time",
+      "salary": "A partire da 23.241 € annui",
+      "category": "Vendita",
+      "score": 9.8,
+      "source": "Eurospin / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/addetti-e-vendita-personale-punto-vendita-di-montevarchi-ar-at-eurospin-4453102297",
+      "summary": "Assistenza clienti, cassa, scaffali, layout merceologico e pulizia del punto vendita.",
+      "checks": [
+        "Montevarchi nel perimetro",
+        "Esperienza GDO/alimentare valorizzata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:08:25+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
