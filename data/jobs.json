@@ -337,6 +337,30 @@
       "active": true,
       "firstSeenAt": "2026-10-01T15:08:25+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "ivs-rifornimento-valdarno-4467235176",
+      "date": "2026-09-18",
+      "company": "IVS Italia S.p.A.",
+      "title": "Addetto/a rifornimento distributori automatici - zona Valdarno",
+      "location": "Montevarchi / Terranuova Bracciolini / San Giovanni Valdarno",
+      "workMode": "In presenza sul territorio",
+      "contract": "Tempo determinato full time · possibilità tempo indeterminato",
+      "salary": "23.000–24.000 € annui + premio",
+      "category": "Servizi",
+      "score": 9.2,
+      "source": "LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/addetto-a-rifornimento-distributori-automatici-zona-valdarno-ar-at-ivs-italia-spa-4467235176",
+      "summary": "Rifornimento, pulizia e sanificazione distributori, rotazione prodotti alimentari, incassi e relazione con clienti.",
+      "checks": [
+        "Patente B richiesta",
+        "Sede e territorio nel Valdarno aretino",
+        "Mezzo aziendale per il lavoro"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:08:25+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
