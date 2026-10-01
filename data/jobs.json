@@ -291,6 +291,29 @@
       "active": true,
       "firstSeenAt": "2026-10-01T15:08:25+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "camst-magazzino-scolastica-firenze-13881",
+      "date": "2026-10-01",
+      "company": "Gruppo Camst",
+      "title": "Addetto/Addetta al magazzino ristorazione scolastica",
+      "location": "Firenze - Campo Marte",
+      "workMode": "In presenza",
+      "contract": "Non dichiarato",
+      "salary": "Non dichiarato",
+      "category": "Magazzino",
+      "score": 9.4,
+      "source": "Camst / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/opportunit%C3%A0-professionali-addetto-addetta-al-magazzino-ristorazione-scolastica-firenze-zona-campo-marte-10-26-13881-at-camst-group-4471991801",
+      "summary": "Ricevimento e controllo merci, stoccaggio, controllo giacenze e scadenze per ristorazione scolastica.",
+      "checks": [
+        "Firenze città",
+        "Esperienza analoga preferita"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:08:25+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
