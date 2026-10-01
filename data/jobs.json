@@ -502,6 +502,30 @@
       "active": true,
       "firstSeenAt": "2026-10-01T15:08:25+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "randstad-operaio-alimentare-valdarno-20260914",
+      "date": "2026-09-14",
+      "company": "Azienda alimentare tramite Randstad",
+      "title": "Operaio alimentare generico",
+      "location": "Montevarchi / Valdarno aretino",
+      "workMode": "In presenza",
+      "contract": "Tempo determinato · scopo assuntivo",
+      "salary": "18.000–24.000 € annui",
+      "category": "Produzione",
+      "score": 9.4,
+      "source": "Randstad",
+      "url": "https://www.randstad.it/offerte-lavoro/q-agente-di-commercio/re-toscana/ci-figline-e-incisa-valdarno/page-2/",
+      "summary": "Produzione alimentare generica nel Valdarno aretino, full time, esperienza non richiesta.",
+      "checks": [
+        "Valdarno aretino",
+        "Disponibilità immediata",
+        "Esperienza non richiesta"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:08:25+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
