@@ -83,7 +83,7 @@ button,a{-webkit-tap-highlight-color:transparent}
 .refreshTop{position:relative;z-index:12;flex:0 0 auto;width:44px;height:44px;margin-top:7px;border-radius:50%;border:1px solid rgba(255,255,255,.72);background:rgba(255,255,255,.56);box-shadow:var(--shadow-soft);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);display:grid;place-items:center;font-size:21px;font-weight:800;color:var(--accent);cursor:pointer;-webkit-tap-highlight-color:transparent}
 .refreshTop:active{transform:scale(.96)}.refreshTop[disabled]{opacity:.6}.refreshTop.spinning{animation:spin .8s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
 @media(prefers-color-scheme:dark){.refreshTop{background:rgba(25,32,47,.68);border-color:rgba(255,255,255,.10);color:var(--accent)}}
-.hero{flex:1;position:relative;min-height:82px}.encourage{position:absolute;z-index:5;top:18px;left:76%;text-align:center;font-family:"Snell Roundhand","Segoe Print","Bradley Hand",cursive;font-size:28px;font-weight:600;line-height:.95;color:#6FAE86;transform:translateX(-50%) rotate(-7deg);transform-origin:center;white-space:nowrap;opacity:.96;text-shadow:0 1px 0 rgba(255,255,255,.75);pointer-events:none}.encourage span{display:block;margin-top:3px;font-size:.92em}
+.hero{flex:1;position:relative;min-height:82px}
 .kicker{font-size:13px;color:var(--muted2);font-weight:700;margin-top:10px}
 h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position:relative;z-index:2}
 .sub{font-size:12px;color:var(--muted);position:relative;z-index:2}
@@ -168,7 +168,6 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
   .cardActions{justify-content:flex-start}
 }
 @media (max-width:430px){
-  .encourage{font-size:23px;top:18px}
   .top{gap:10px}
   .hero{min-height:84px}
   .blob1{right:58px;top:12px;width:92px;height:92px}
@@ -189,7 +188,6 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 /* dark-contrast-v4-6 */
 
 @media (prefers-color-scheme:dark){
-  .encourage{color:#B7E0C2;opacity:.98;text-shadow:0 1px 8px rgba(0,0,0,.28)}
   html,body{
     background:
       radial-gradient(circle at 92% 4%,rgba(111,174,134,.18),transparent 26%),
@@ -712,39 +710,6 @@ document.querySelectorAll(".stat").forEach(el=>el.addEventListener("click",()=>{
 ui.navHome.addEventListener("click",()=>{savedOnly=false;searchOpen=false;ui.searchRow.classList.remove("searchVisible");ui.q.blur();ui.q.value="";resetTopFilters();setNavActive("home");render();window.scrollTo({top:0,behavior:"smooth"})});
 ui.navSearch.addEventListener("click",()=>{savedOnly=false;searchOpen=!searchOpen;ui.searchRow.classList.toggle("searchVisible",searchOpen);setNavActive(searchOpen?"search":"home");if(searchOpen){setTimeout(()=>ui.q.focus({preventScroll:true}),80)}else{ui.q.blur();ui.q.value="";render();setTimeout(()=>window.scrollTo({top:window.scrollY,behavior:"auto"}),60)}});
 ui.navSaved.addEventListener("click",()=>{savedOnly=!savedOnly;searchOpen=false;ui.searchRow.classList.remove("searchVisible");ui.q.blur();ui.q.value="";if(savedOnly){resetTopFilters();setNavActive("saved")}else setNavActive("home");render()});
-function positionEncourage(){
- const el=document.querySelector(".encourage");
- const title=document.querySelector("h1");
- const top=document.querySelector(".top");
- if(!el||!title||!top)return;
-
- // Restore the normal size before measuring.
- el.style.fontSize="";
- const tr=title.getBoundingClientRect();
- const pr=top.getBoundingClientRect();
-
- const pad=6;
- const freeLeft=Math.min(pr.right-pad,tr.right+6);
- const rb=document.querySelector("#refreshBtn");
- const rr=rb?rb.getBoundingClientRect():null;
- const freeRight=(rr&&rr.width)?rr.left-pad:pr.right-pad;
- const available=Math.max(0,freeRight-freeLeft);
-
- let er=el.getBoundingClientRect();
- if(er.width>available && available>0){
-   const current=parseFloat(getComputedStyle(el).fontSize)||21;
-   const reduced=Math.max(16,current*(available/er.width)*0.94);
-   el.style.fontSize=reduced+"px";
-   er=el.getBoundingClientRect();
- }
-
- const wanted=(freeLeft+freeRight)/2-pr.left;
- const minX=er.width/2+pad;
- const maxX=pr.width-er.width/2-pad;
- el.style.left=Math.max(minX,Math.min(wanted,maxX))+"px";
-}
-window.addEventListener("resize",positionEncourage);
-window.addEventListener("orientationchange",()=>setTimeout(positionEncourage,120));
 
 let activeDay=romeDateKey();
 function watchDayChange(){
@@ -761,9 +726,7 @@ document.addEventListener("visibilitychange",()=>{
    load();
  }
 });
-
-positionEncourage();
-Promise.resolve(load()).then(positionEncourage);
+load();
 setInterval(watchDayChange,15000);
 setInterval(()=>{if(document.visibilityState==="visible")load()},5*60*1000);
 })();
