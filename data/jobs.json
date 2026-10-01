@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T14:35:00+02:00",
+  "generatedAt": "2026-10-01T15:08:25+02:00",
   "source": "Ricerca quotidiana Giulia",
   "jobs": [
     {
@@ -609,6 +609,84 @@
         "newJobs": 10,
         "activeJobs": 10,
         "completedAt": "2026-10-01T14:35:00+02:00"
+      },
+      "15:00": {
+        "scheduledFor": "2026-10-01T15:00:00+02:00",
+        "completedAt": "2026-10-01T15:08:25+02:00",
+        "status": "partial",
+        "requiredSourcesTotal": 60,
+        "requiredSourcesChecked": 25,
+        "sourcesChecked": [
+          "LinkedIn Jobs",
+          "Indeed",
+          "Randstad",
+          "Manpower",
+          "Umana",
+          "Ali Lavoro",
+          "Openjobmetis",
+          "Gi Group",
+          "Chef Express Careers",
+          "Camst",
+          "Eurospin",
+          "OBI",
+          "IVS Italia",
+          "D.M.O./Caddy's",
+          "AxL",
+          "Adecco",
+          "Synergie",
+          "Orienta",
+          "Lavoropiù",
+          "Careerjet",
+          "Jobrapido",
+          "Jooble",
+          "Talent.com",
+          "Toscana Lavoro/ARTI Toscana",
+          "Glassdoor Jobs"
+        ],
+        "sourcesUnavailable": [],
+        "extraSourcesChecked": [
+          "Aziende locali del Valdarno",
+          "Career page GDO/retail",
+          "Career page ristorazione",
+          "Pagine indicizzate web"
+        ],
+        "companiesChecked": [
+          "Eurospin",
+          "Chef Express",
+          "Camst",
+          "NKD",
+          "OBI",
+          "IVS Italia",
+          "D.M.O./Caddy's",
+          "Openjobmetis clienti Valdarno",
+          "Ali Lavoro clienti GDO",
+          "Randstad clienti alimentari",
+          "Manpower clienti alimentari"
+        ],
+        "queriesRun": 72,
+        "newJobs": 16,
+        "activeJobs": 26,
+        "layersCompleted": [
+          "portali generalisti",
+          "agenzie",
+          "aggregatori",
+          "GDO/retail",
+          "ristorazione/mense",
+          "produzione/confezionamento",
+          "aziende Valdarno",
+          "query domain-restricted",
+          "keyword semantiche",
+          "ricontrollo esistenti",
+          "secondo passaggio"
+        ],
+        "secondPassSources": [
+          "LinkedIn Jobs",
+          "Indeed",
+          "Randstad",
+          "Openjobmetis",
+          "Chef Express"
+        ],
+        "notes": "Run manuale di recupero trattato come scansione delle 15:00. Ricerca limitata rigidamente a Firenze città, Arezzo città e comuni concordati del Valdarno fiorentino/aretino. Conteggi basati solo su controlli effettivamente eseguiti."
       }
     }
   }
