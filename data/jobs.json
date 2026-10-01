@@ -86,6 +86,27 @@
       "active": true,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
       "firstSeenRun": "14:27"
+    },
+    {
+      "id": "manpower-bucine-1045375",
+      "date": "2026-09-23",
+      "company": "Azienda alimentare tramite Manpower",
+      "title": "Addetta/o al confezionamento alimentare",
+      "location": "Bucine (AR)",
+      "workMode": "In presenza",
+      "contract": "Tempo determinato iniziale 1 mese · possibilità di proroga",
+      "salary": "22.000–23.000 € annui",
+      "category": "Produzione",
+      "source": "Manpower",
+      "url": "https://www.manpower.it/it/annuncio-lavoro/consumer-products/produzione/addettao-al-confezionamento-alimentare-bucine/1045375",
+      "summary": "Confezionamento e imballaggio alimentare con supporto a magazzino e punto vendita.",
+      "checks": [
+        "Sede verificata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T14:27:53+02:00",
+      "firstSeenRun": "14:27"
     }
   ],
   "audit": {
@@ -94,8 +115,8 @@
       "14:27-extra": {
         "status": "partial",
         "queriesRun": 46,
-        "newJobs": 4,
-        "activeJobs": 4
+        "newJobs": 5,
+        "activeJobs": 5
       }
     }
   }
