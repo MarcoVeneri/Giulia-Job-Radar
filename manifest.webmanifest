@@ -1,0 +1,18 @@
+{
+  "name": "Giulia Job Radar",
+  "short_name": "Giulia Jobs",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f5f8",
+  "theme_color": "#6FAE86",
+  "description": "Dashboard automatica delle opportunità di lavoro per Giulia.",
+  "icons": [
+    {
+      "src": "./icon.svg?v=1.0",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
