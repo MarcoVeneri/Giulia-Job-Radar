@@ -361,6 +361,30 @@
       "active": true,
       "firstSeenAt": "2026-10-01T15:08:25+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "obi-cassa-montevarchi-4467255827",
+      "date": "2026-09-17",
+      "company": "OBI Italia",
+      "title": "Addetto/a alla cassa - Part time verticale 24H",
+      "location": "Montevarchi (AR)",
+      "workMode": "In presenza",
+      "contract": "Part time 24H",
+      "salary": "Non dichiarato",
+      "category": "Vendita",
+      "score": 9,
+      "source": "LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/addetto-a-alla-cassa-part-time-verticale-24h-at-obi-italia-4467255827",
+      "summary": "Accoglienza clienti e gestione delle attività e procedure di cassa.",
+      "checks": [
+        "Montevarchi nel perimetro",
+        "Esperienza GDO preferibile",
+        "Competenze digitali richieste"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:08:25+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
