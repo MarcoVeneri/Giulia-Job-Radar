@@ -409,6 +409,29 @@
       "active": true,
       "firstSeenAt": "2026-10-01T15:08:25+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "chefexpress-arno-ovest-addetto-ristorazione",
+      "date": "2026-10-01",
+      "company": "Chef Express",
+      "title": "Addetto/a alla ristorazione - Area di Servizio Arno Ovest",
+      "location": "Reggello (FI)",
+      "workMode": "In presenza",
+      "contract": "Part time",
+      "salary": "Circa 1.680 € lordi/mese",
+      "category": "Ristorazione",
+      "score": 10,
+      "source": "Chef Express Careers / Indeed",
+      "url": "https://www.chefexpress.it/punto-vendita/CENTRO/TOSCANA/",
+      "summary": "Servizio cliente, presa ordini, cassa/kiosk, banco e sala, preparazione prodotti food nell'area di servizio Arno Ovest.",
+      "checks": [
+        "Reggello nel perimetro",
+        "Esperienza precedente di Giulia nello stesso contesto/area di servizio particolarmente coerente"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:08:25+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
