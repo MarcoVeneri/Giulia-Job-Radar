@@ -1,15 +1,38 @@
 {
   "generatedAt": "2026-10-01T14:27:53+02:00",
   "source": "Ricerca quotidiana Giulia",
-  "jobs": [],
+  "jobs": [
+    {
+      "id": "eurospin-figline-543839",
+      "date": "2026-09-04",
+      "company": "Eurospin Italia S.p.A.",
+      "title": "Addetti/e vendita - Personale Punto Vendita",
+      "location": "Figline e Incisa Valdarno (FI)",
+      "workMode": "In presenza",
+      "contract": "Non dichiarato",
+      "salary": "A partire da 23.241 € annui",
+      "category": "Vendita",
+      "source": "Eurospin Careers",
+      "url": "https://eurospin.intervieweb.it/app.php?CodP=2",
+      "summary": "Personale di punto vendita a Figline e Incisa Valdarno.",
+      "checks": [
+        "Sede verificata",
+        "Annuncio ID 543839"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T14:27:53+02:00",
+      "firstSeenRun": "14:27"
+    }
+  ],
   "audit": {
     "date": "2026-10-01",
     "runs": {
       "14:27-extra": {
         "status": "partial",
         "queriesRun": 46,
-        "newJobs": 0,
-        "activeJobs": 0
+        "newJobs": 1,
+        "activeJobs": 1
       }
     }
   }
