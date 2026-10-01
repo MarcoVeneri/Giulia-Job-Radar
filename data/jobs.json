@@ -646,6 +646,30 @@
       "active": true,
       "firstSeenAt": "2026-10-01T15:23:00+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "chiantineria-arezzo-commessa-enogastronomia-20261001",
+      "date": "2026-10-01",
+      "company": "Chiantineria",
+      "title": "Commessa addetta alle vendite - settore enogastronomia",
+      "location": "Arezzo (AR)",
+      "workMode": "In presenza",
+      "contract": "Tempo pieno / Part time",
+      "salary": "Non dichiarato",
+      "category": "Vendita",
+      "score": 9.8,
+      "source": "SimplyHired",
+      "url": "https://www.simplyhired.it/job/qndJ7QQIxDStU8dw41BrethNN-MxWnlokF33k7ppvPL_8bhUcoP2xg",
+      "summary": "Vendita di prodotti enogastronomici toscani nel centro di Arezzo, assistenza e accoglienza clienti.",
+      "checks": [
+        "Arezzo città",
+        "Esperienza vendita preferenziale",
+        "Conoscenza prodotti tipici non indispensabile"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:23:00+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
