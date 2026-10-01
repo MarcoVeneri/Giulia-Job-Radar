@@ -128,6 +128,27 @@
       "active": true,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
       "firstSeenRun": "14:27"
+    },
+    {
+      "id": "umana-arezzo-314023",
+      "date": "2026-09-15",
+      "company": "Catena supermercati tramite Umana",
+      "title": "Addetti banco gastronomia GDO part-time",
+      "location": "Arezzo (AR)",
+      "workMode": "In presenza",
+      "contract": "Part-time · tipologia non dichiarata",
+      "salary": "1.600–1.700 € lordi/mese",
+      "category": "Ristorazione",
+      "source": "Umana",
+      "url": "https://www.umana.it/per-le-persone/offerte-di-lavoro/addetti-banco-gastronomia-gdo-part-time/314023/",
+      "summary": "Banco gastronomia part-time per catena di supermercati in zona Arezzo.",
+      "checks": [
+        "Sede verificata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T14:27:53+02:00",
+      "firstSeenRun": "14:27"
     }
   ],
   "audit": {
@@ -136,8 +157,8 @@
       "14:27-extra": {
         "status": "partial",
         "queriesRun": 46,
-        "newJobs": 6,
-        "activeJobs": 6
+        "newJobs": 7,
+        "activeJobs": 7
       }
     }
   }
