@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T14:27:53+02:00",
+  "generatedAt": "2026-10-01T14:35:00+02:00",
   "source": "Ricerca quotidiana Giulia",
   "jobs": [
     {
@@ -22,28 +22,8 @@
       "remote": false,
       "active": true,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
-      "firstSeenRun": "14:27"
-    },
-    {
-      "id": "eurospin-figline-543839",
-      "date": "2026-09-04",
-      "company": "Eurospin Italia S.p.A.",
-      "title": "Addetti/e vendita - Personale Punto Vendita",
-      "location": "Figline e Incisa Valdarno (FI)",
-      "workMode": "In presenza",
-      "contract": "Non dichiarato",
-      "salary": "Non dichiarato",
-      "category": "Vendita",
-      "source": "Eurospin Careers",
-      "url": "https://eurospin.intervieweb.it/app.php?CodP=2",
-      "summary": "Personale di punto vendita a Figline e Incisa Valdarno.",
-      "checks": [
-        "Sede verificata"
-      ],
-      "remote": false,
-      "active": true,
-      "firstSeenAt": "2026-10-01T14:27:53+02:00",
-      "firstSeenRun": "14:27"
+      "firstSeenRun": "14:27",
+      "score": 9.8
     },
     {
       "id": "unicomm-terranuova-1144",
@@ -64,7 +44,8 @@
       "remote": false,
       "active": true,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
-      "firstSeenRun": "14:27"
+      "firstSeenRun": "14:27",
+      "score": 9.8
     },
     {
       "id": "manpower-montevarchi-1040609",
@@ -85,7 +66,8 @@
       "remote": false,
       "active": true,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
-      "firstSeenRun": "14:27"
+      "firstSeenRun": "14:27",
+      "score": 10
     },
     {
       "id": "manpower-bucine-1045375",
@@ -106,7 +88,8 @@
       "remote": false,
       "active": true,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
-      "firstSeenRun": "14:27"
+      "firstSeenRun": "14:27",
+      "score": 9.5
     },
     {
       "id": "umana-arezzo-314237",
@@ -127,7 +110,8 @@
       "remote": false,
       "active": true,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
-      "firstSeenRun": "14:27"
+      "firstSeenRun": "14:27",
+      "score": 9.7
     },
     {
       "id": "umana-arezzo-314023",
@@ -148,7 +132,8 @@
       "remote": false,
       "active": true,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
-      "firstSeenRun": "14:27"
+      "firstSeenRun": "14:27",
+      "score": 9.6
     },
     {
       "id": "pellegrini-firenze-ris3294",
@@ -169,7 +154,8 @@
       "remote": false,
       "active": true,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
-      "firstSeenRun": "14:27"
+      "firstSeenRun": "14:27",
+      "score": 9.7
     },
     {
       "id": "manpower-firenze-1040346",
@@ -190,7 +176,8 @@
       "remote": false,
       "active": true,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
-      "firstSeenRun": "14:27"
+      "firstSeenRun": "14:27",
+      "score": 9.3
     },
     {
       "id": "randstad-firenze-47464109",
@@ -211,7 +198,8 @@
       "remote": false,
       "active": true,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
-      "firstSeenRun": "14:27"
+      "firstSeenRun": "14:27",
+      "score": 9.1
     },
     {
       "id": "eurospin-firenze-543806",
@@ -232,7 +220,8 @@
       "remote": false,
       "active": true,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
-      "firstSeenRun": "14:27"
+      "firstSeenRun": "14:27",
+      "score": 9
     }
   ],
   "audit": {
@@ -241,8 +230,9 @@
       "14:27-extra": {
         "status": "complete",
         "queriesRun": 46,
-        "newJobs": 11,
-        "activeJobs": 11
+        "newJobs": 10,
+        "activeJobs": 10,
+        "completedAt": "2026-10-01T14:35:00+02:00"
       }
     }
   }
