@@ -1,9 +1,16 @@
 {
-  "generatedAt": "2026-10-01T12:18:02.283Z",
+  "generatedAt": "2026-10-01T14:27:53+02:00",
   "source": "Ricerca quotidiana Giulia",
   "jobs": [],
   "audit": {
-    "date": "",
-    "runs": {}
+    "date": "2026-10-01",
+    "runs": {
+      "14:27-extra": {
+        "status": "partial",
+        "queriesRun": 46,
+        "newJobs": 0,
+        "activeJobs": 0
+      }
+    }
   }
 }
