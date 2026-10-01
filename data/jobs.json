@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T15:08:25+02:00",
+  "generatedAt": "2026-10-01T15:23:00+02:00",
   "source": "Ricerca quotidiana Giulia",
   "jobs": [
     {
@@ -709,10 +709,10 @@
       },
       "15:00": {
         "scheduledFor": "2026-10-01T15:00:00+02:00",
-        "completedAt": "2026-10-01T15:08:25+02:00",
+        "completedAt": "2026-10-01T15:23:00+02:00",
         "status": "partial",
         "requiredSourcesTotal": 60,
-        "requiredSourcesChecked": 25,
+        "requiredSourcesChecked": 60,
         "sourcesChecked": [
           "LinkedIn Jobs",
           "Indeed",
@@ -738,13 +738,51 @@
           "Jooble",
           "Talent.com",
           "Toscana Lavoro/ARTI Toscana",
-          "Glassdoor Jobs"
+          "Glassdoor Jobs",
+          "Monster",
+          "During",
+          "Etjca",
+          "MAW",
+          "Humangest",
+          "ADHR Group",
+          "Staff S.p.A.",
+          "Atempo",
+          "inPA",
+          "Adzuna",
+          "Jobbydoo",
+          "Jobijoba",
+          "SimplyHired",
+          "Subito Lavoro",
+          "CercoLavoro",
+          "CVing",
+          "Trovolavoro",
+          "EURES",
+          "Bakeca Lavoro",
+          "Helplavoro",
+          "Unicoop Firenze Careers",
+          "Conad Careers",
+          "Esselunga Careers",
+          "Lidl Careers",
+          "PENNY Careers",
+          "Carrefour Careers",
+          "Pam/Panorama Careers",
+          "MD Careers",
+          "NaturaSì Careers",
+          "Tigotà Careers",
+          "Autogrill Careers",
+          "Elior Careers",
+          "CIRFOOD Careers",
+          "Serenissima Ristorazione Careers",
+          "McDonald's Italia Careers"
         ],
         "sourcesUnavailable": [],
         "extraSourcesChecked": [
+          "Burger King Careers",
+          "KFC Careers",
+          "Roadhouse Careers",
+          "La Piadineria Careers",
+          "Starbucks Careers",
           "Aziende locali del Valdarno",
-          "Career page GDO/retail",
-          "Career page ristorazione",
           "Pagine indicizzate web"
         ],
         "companiesChecked": [
@@ -755,14 +793,31 @@
           "OBI",
           "IVS Italia",
           "D.M.O./Caddy's",
-          "Openjobmetis clienti Valdarno",
-          "Ali Lavoro clienti GDO",
-          "Randstad clienti alimentari",
-          "Manpower clienti alimentari"
+          "Unicoop Firenze",
+          "Conad",
+          "Esselunga",
+          "Lidl",
+          "PENNY",
+          "Carrefour",
+          "Pam/Panorama",
+          "MD",
+          "NaturaSì",
+          "Tigotà",
+          "Autogrill",
+          "Elior",
+          "CIRFOOD",
+          "Serenissima Ristorazione",
+          "McDonald's",
+          "Burger King",
+          "KFC",
+          "Roadhouse",
+          "La Piadineria",
+          "Starbucks",
+          "Chiantineria"
         ],
-        "queriesRun": 72,
-        "newJobs": 16,
-        "activeJobs": 26,
+        "queriesRun": 118,
+        "newJobs": 20,
+        "activeJobs": 30,
         "layersCompleted": [
           "portali generalisti",
           "agenzie",
@@ -783,7 +838,7 @@
           "Openjobmetis",
           "Chef Express"
         ],
-        "notes": "Run manuale di recupero trattato come scansione delle 15:00. Ricerca limitata rigidamente a Firenze città, Arezzo città e comuni concordati del Valdarno fiorentino/aretino. Conteggi basati solo su controlli effettivamente eseguiti."
+        "notes": "Copertura fonti completata a 60/60 con 35 fonti aggiuntive rispetto al primo passaggio. Il run resta marcato partial perché l'obiettivo esteso di 500 query/controlli non è stato raggiunto in questa finestra; queriesRun riporta solo i controlli realmente eseguiti. Aggiunte nuove offerte verificate emerse nel completamento fonti."
       }
     }
   }
