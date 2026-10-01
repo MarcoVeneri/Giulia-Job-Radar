@@ -191,6 +191,27 @@
       "active": true,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
       "firstSeenRun": "14:27"
+    },
+    {
+      "id": "randstad-firenze-47464109",
+      "date": "2026-10-01",
+      "company": "Diverse aziende tramite Randstad",
+      "title": "Addetto vendite e cassa",
+      "location": "Firenze (FI)",
+      "workMode": "In presenza",
+      "contract": "Somministrazione · possibilità di proroghe",
+      "salary": "18.000–22.000 € annui",
+      "category": "Vendita",
+      "source": "Randstad",
+      "url": "https://www.randstad.com/jobs/addetto-vendite-e-cassa-mfnb_firenze_47464109/",
+      "summary": "Vendita e cassa a contatto con il pubblico sul territorio di Firenze.",
+      "checks": [
+        "Sede verificata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T14:27:53+02:00",
+      "firstSeenRun": "14:27"
     }
   ],
   "audit": {
@@ -199,8 +220,8 @@
       "14:27-extra": {
         "status": "partial",
         "queriesRun": 46,
-        "newJobs": 9,
-        "activeJobs": 9
+        "newJobs": 10,
+        "activeJobs": 10
       }
     }
   }
