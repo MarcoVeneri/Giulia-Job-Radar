@@ -212,16 +212,37 @@
       "active": true,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
       "firstSeenRun": "14:27"
+    },
+    {
+      "id": "eurospin-firenze-543806",
+      "date": "2026-09-01",
+      "company": "Eurospin Italia S.p.A.",
+      "title": "Addetto/a vendita - Personale Punto Vendita",
+      "location": "Firenze (FI)",
+      "workMode": "In presenza",
+      "contract": "Non dichiarato",
+      "salary": "Non dichiarato",
+      "category": "Vendita",
+      "source": "Eurospin Careers",
+      "url": "https://eurospin.intervieweb.it/app.php?CodP=2",
+      "summary": "Personale di punto vendita Eurospin a Firenze.",
+      "checks": [
+        "Sede verificata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T14:27:53+02:00",
+      "firstSeenRun": "14:27"
     }
   ],
   "audit": {
     "date": "2026-10-01",
     "runs": {
       "14:27-extra": {
-        "status": "partial",
+        "status": "complete",
         "queriesRun": 46,
-        "newJobs": 10,
-        "activeJobs": 10
+        "newJobs": 11,
+        "activeJobs": 11
       }
     }
   }
