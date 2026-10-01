@@ -371,15 +371,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     <div id="run08box" class="runChip"><strong>08:00</strong><span id="run08">In attesa</span></div>
     <div id="run15box" class="runChip"><strong>15:00</strong><span id="run15">In attesa</span></div>
 </section>
-
-  <section id="filters" class="tabs">
-    <button class="tab active" data-filter="Tutte">Tutte</button>
-    <button class="tab" data-filter="Tender">Tender</button>
-    <button class="tab" data-filter="Sales Support">Sales</button>
-    <button class="tab" data-filter="Eventi">Eventi</button>
-  </section>
-
-  <section class="stats">
+<section class="stats">
     <div class="stat" data-stat="Nuove">
       <div class="iconWrap">◫</div>
       <div><div class="statLabel">Nuove</div><strong id="stNew">0</strong></div>
@@ -415,7 +407,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 "use strict";
 const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.27",sync:{enabled:false}};
 const $=s=>document.querySelector(s);
-const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
+const ui={jobs:$("#jobs"),q:$("#q"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],REMOTE_ROWS=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
 const STATUS=["Nuova","Interessante","Candidata","Colloquio","Scartata"];
 const storeKey="alice-job-radar-status-v3";
@@ -552,7 +544,7 @@ async function toggleSaved(id){
  render();
 }
 function setNavActive(which){ui.navHome.classList.toggle("active",which==="home");ui.navSearch.classList.toggle("active",which==="search");ui.navSaved.classList.toggle("active",which==="saved")}
-function resetTopFilters(){filter="Tutte";statFilter="";document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("active",x.dataset.filter==="Tutte"));document.querySelectorAll(".stat").forEach(x=>x.classList.remove("active"))}
+function resetTopFilters(){filter="Tutte";statFilter="";document.querySelectorAll(".stat").forEach(x=>x.classList.remove("active"))}
 function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
 function fmtDateTime(iso){try{return new Intl.DateTimeFormat("it-IT",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"}).format(new Date(iso))}catch(e){return iso}}
 function ageHours(iso){const t=Date.parse(iso);return Number.isFinite(t)?(Date.now()-t)/36e5:Infinity}
@@ -575,7 +567,6 @@ function match(j){
  if(isDismissed(j.id))return false;
  const q=ui.q.value.trim().toLowerCase();
  if(q && ![j.company,j.title,j.location,j.category,j.summary,j.salary,j.contract].join(" ").toLowerCase().includes(q))return false;
- if(filter!=="Tutte" && j.category!==filter)return false;
  if(savedOnly && !isSaved(j.id))return false;
  if(statFilter==="Nuove" && !isNew(j))return false;
  if(statFilter==="Top" && j.score<9)return false;
@@ -697,10 +688,6 @@ async function load(){ ui.notice.classList.remove('show');
 }
 if(ui.refreshBtn)ui.refreshBtn.addEventListener("click",()=>load());
 ui.q.addEventListener('input',render);
-ui.filters.addEventListener('click',e=>{
- const b=e.target.closest('.tab'); if(!b)return;
- filter=b.dataset.filter; document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b)); render();
-});
 document.querySelectorAll(".stat").forEach(el=>el.addEventListener("click",()=>{
  const next=el.dataset.stat;
  statFilter=statFilter===next?"":next;
