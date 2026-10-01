@@ -222,6 +222,29 @@
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
       "firstSeenRun": "14:27",
       "score": 9
+    },
+    {
+      "id": "ali-gastronomia-figline-4469038040",
+      "date": "2026-10-01",
+      "company": "GDO tramite Ali Lavoro",
+      "title": "Addetto/a gastronomia",
+      "location": "Figline e Incisa Valdarno (FI)",
+      "workMode": "In presenza",
+      "contract": "Non dichiarato",
+      "salary": "Non dichiarato",
+      "category": "Ristorazione",
+      "score": 10,
+      "source": "Ali Lavoro / LinkedIn",
+      "url": "https://it.linkedin.com/jobs/view/addetto-a-gastronomia-at-ali-lavoro-4469038040",
+      "summary": "Gestione banco gastronomia e salumeria, allestimento, riordino, accoglienza e servizio diretto alla clientela.",
+      "checks": [
+        "Sede nel perimetro",
+        "Esperienza di Giulia in gastronomia direttamente coerente"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:08:25+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
