@@ -23,6 +23,27 @@
       "active": true,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
       "firstSeenRun": "14:27"
+    },
+    {
+      "id": "eurospin-figline-543839",
+      "date": "2026-09-04",
+      "company": "Eurospin Italia S.p.A.",
+      "title": "Addetti/e vendita - Personale Punto Vendita",
+      "location": "Figline e Incisa Valdarno (FI)",
+      "workMode": "In presenza",
+      "contract": "Non dichiarato",
+      "salary": "Non dichiarato",
+      "category": "Vendita",
+      "source": "Eurospin Careers",
+      "url": "https://eurospin.intervieweb.it/app.php?CodP=2",
+      "summary": "Personale di punto vendita a Figline e Incisa Valdarno.",
+      "checks": [
+        "Sede verificata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T14:27:53+02:00",
+      "firstSeenRun": "14:27"
     }
   ],
   "audit": {
@@ -31,8 +52,8 @@
       "14:27-extra": {
         "status": "partial",
         "queriesRun": 46,
-        "newJobs": 1,
-        "activeJobs": 1
+        "newJobs": 2,
+        "activeJobs": 2
       }
     }
   }
