@@ -622,6 +622,30 @@
       "active": true,
       "firstSeenAt": "2026-10-01T15:23:00+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "naturasi-firenze-banconista-gastronomo-20260701",
+      "date": "2026-07-01",
+      "company": "NaturaSì",
+      "title": "Banconista/Gastronomo NaturaSì Firenze",
+      "location": "Firenze (FI)",
+      "workMode": "In presenza",
+      "contract": "Non dichiarato",
+      "salary": "Non dichiarato",
+      "category": "Ristorazione",
+      "score": 9.7,
+      "source": "NaturaSì Careers",
+      "url": "https://careers.naturasi.it/",
+      "summary": "Posizione di banconista/gastronomo nel punto vendita NaturaSì di Firenze.",
+      "checks": [
+        "Firenze città",
+        "Career page NaturaSì",
+        "Mansione direttamente coerente con esperienza gastronomia"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:23:00+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
