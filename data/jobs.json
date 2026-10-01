@@ -526,6 +526,31 @@
       "active": true,
       "firstSeenAt": "2026-10-01T15:08:25+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "openjobmetis-magazzino-figline-134341",
+      "date": "2026-09-10",
+      "company": "Azienda del Valdarno tramite Openjobmetis",
+      "title": "Impiegato/a di Magazzino",
+      "location": "Figline e Incisa Valdarno (FI)",
+      "workMode": "In presenza",
+      "contract": "Somministrazione tempo determinato · finalizzato all'inserimento",
+      "salary": "20.000–22.000 € annui",
+      "category": "Magazzino",
+      "score": 8.5,
+      "source": "Openjobmetis",
+      "url": "https://www.openjobmetis.it/it/candidati/offerte-di-lavoro/impiegatoa-di-magazzino-134341",
+      "summary": "Ricezione/emissione DDT, gestione spedizioni con corrieri, supporto amministrativo del magazzino e inserimento dati.",
+      "checks": [
+        "Valdarno fiorentino",
+        "PC richiesto",
+        "Inglese base richiesto",
+        "Gestionale Arca Evolution gradito ma non obbligatorio"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:08:25+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
