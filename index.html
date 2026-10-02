@@ -649,7 +649,8 @@ function renderAudit(audit){
  function one(slot,el,box){
    const r=runs[slot];
    box.classList.remove("ok","partial","failed");
-   if(!r){
+   const runDate=String((r&&(r.completedAt||r.scheduledFor))||"").slice(0,10);
+   if(!r || runDate!==today){
      el.textContent="Da eseguire";
      return;
    }
