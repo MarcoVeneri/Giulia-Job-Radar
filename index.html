@@ -700,6 +700,7 @@ ui.navSearch.addEventListener("click",()=>{savedOnly=false;searchOpen=!searchOpe
 ui.navSaved.addEventListener("click",()=>{savedOnly=!savedOnly;searchOpen=false;ui.searchRow.classList.remove("searchVisible");ui.q.blur();ui.q.value="";if(savedOnly){resetTopFilters();setNavActive("saved")}else setNavActive("home");render()});
 
 let activeDay=romeDateKey();
+let midnightResetTimer=null;
 function watchDayChange(){
  const day=romeDateKey();
  if(day!==activeDay){
@@ -708,6 +709,23 @@ function watchDayChange(){
    render();
  }
 }
+function scheduleMidnightReset(){
+ if(midnightResetTimer)clearTimeout(midnightResetTimer);
+ const now=new Date();
+ const parts=new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/Rome",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:false}).formatToParts(now);
+ const p=Object.fromEntries(parts.map(x=>[x.type,x.value]));
+ const romeNow=new Date(`${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}:${p.second}`);
+ const nextMidnight=new Date(romeNow);
+ nextMidnight.setDate(nextMidnight.getDate()+1);
+ nextMidnight.setHours(0,0,0,50);
+ const delay=Math.max(250,nextMidnight-romeNow);
+ midnightResetTimer=setTimeout(()=>{
+   activeDay=romeDateKey();
+   renderAudit(AUDIT);
+   render();
+   scheduleMidnightReset();
+ },delay);
+}
 document.addEventListener("visibilitychange",()=>{
  if(document.visibilityState==="visible"){
    watchDayChange();
@@ -715,6 +733,7 @@ document.addEventListener("visibilitychange",()=>{
  }
 });
 load();
+scheduleMidnightReset();
 setInterval(watchDayChange,15000);
 setInterval(()=>{if(document.visibilityState==="visible")load()},5*60*1000);
 })();
