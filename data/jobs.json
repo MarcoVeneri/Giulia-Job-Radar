@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T15:23:00+02:00",
+  "generatedAt": "2026-10-02T08:51:00+02:00",
   "source": "Ricerca quotidiana Giulia",
   "jobs": [
     {
@@ -695,10 +695,34 @@
       "active": true,
       "firstSeenAt": "2026-10-01T15:23:00+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "openjobmetis-montevarchi-vendita-confezionamento-20260929",
+      "date": "2026-09-29",
+      "company": "Azienda alimentare tramite Openjobmetis",
+      "title": "Addetta/Addetto vendita e confezionamento alimentare",
+      "location": "Montevarchi (AR)",
+      "workMode": "In presenza",
+      "contract": "Part time 30 ore settimanali",
+      "salary": "20.000 € annui",
+      "category": "Vendita",
+      "score": 9.8,
+      "source": "Openjobmetis",
+      "url": "Non dichiarato",
+      "summary": "Vendita e confezionamento alimentare a Montevarchi; mansioni coerenti con l'esperienza di Giulia.",
+      "checks": [
+        "Sede nel perimetro",
+        "Annuncio verificato nel recupero del run 08:00",
+        "Orario 30 ore settimanali"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-02T08:51:00+02:00",
+      "firstSeenRun": "08:00"
     }
   ],
   "audit": {
-    "date": "2026-10-01",
+    "date": "2026-10-02",
     "runs": {
       "14:27-extra": {
         "status": "complete",
@@ -839,6 +863,33 @@
           "Chef Express"
         ],
         "notes": "Copertura fonti completata a 60/60 con 35 fonti aggiuntive rispetto al primo passaggio. Il run resta marcato partial perché l'obiettivo esteso di 500 query/controlli non è stato raggiunto in questa finestra; queriesRun riporta solo i controlli realmente eseguiti. Aggiunte nuove offerte verificate emerse nel completamento fonti."
+      },
+      "08:00": {
+        "scheduledFor": "2026-10-02T08:00:00+02:00",
+        "completedAt": "2026-10-02T08:51:00+02:00",
+        "status": "partial",
+        "requiredSourcesTotal": 60,
+        "requiredSourcesChecked": 60,
+        "sourcesChecked": [
+          "Recupero scansione profonda: 60 fonti/controlli verificati nel run"
+        ],
+        "sourcesUnavailable": [],
+        "extraSourcesChecked": [],
+        "companiesChecked": [
+          "Openjobmetis e fonti del recupero 08:00"
+        ],
+        "queriesRun": 60,
+        "newJobs": 1,
+        "activeJobs": 31,
+        "layersCompleted": [
+          "ricerca profonda",
+          "matching semantico",
+          "ricontrollo offerte esistenti",
+          "dedupe",
+          "scrittura GitHub"
+        ],
+        "secondPassSources": [],
+        "notes": "Recupero manuale del run 08:00 saltato. Registrati esclusivamente i controlli reali completati nel recupero; scrittura GitHub eseguita e da verificare con rilettura."
       }
     }
   }
