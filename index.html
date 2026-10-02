@@ -399,24 +399,24 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     </div>
   </nav>
 
-  <div class="footer">Giulia Job Radar · PWA v1.0 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Giulia Job Radar · PWA v1.1 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.27",sync:{enabled:false}};
+const CFG=window.GIULIA_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"1.1",sync:{enabled:false}};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],REMOTE_ROWS=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
 const STATUS=["Nuova","Interessante","Candidata","Colloquio","Scartata"];
-const storeKey="alice-job-radar-status-v3";
-const savedKey="alice-job-radar-saved-v1";
-const dismissedKey="alice-job-radar-dismissed-v1";
-const appliedKey="alice-job-radar-applied-v1";
-const syncPendingKey="alice-job-radar-sync-pending-v1";
+const storeKey="giulia-job-radar-status-v1";
+const savedKey="giulia-job-radar-saved-v1";
+const dismissedKey="giulia-job-radar-dismissed-v1";
+const appliedKey="giulia-job-radar-applied-v1";
+const syncPendingKey="giulia-job-radar-sync-pending-v1";
 const syncCfg=CFG.sync||{};
-const syncSentinel="__ALICE_RADAR_SYNC_READY__";
+const syncSentinel="__GIULIA_RADAR_SYNC_READY__";
 
 function state(){try{return JSON.parse(localStorage.getItem(storeKey)||"{}")}catch(e){return{}}}
 function saveState(s){try{localStorage.setItem(storeKey,JSON.stringify(s))}catch(e){}}
@@ -427,15 +427,15 @@ function appliedState(){return objectStore(appliedKey)}
 function savedState(){try{return JSON.parse(localStorage.getItem(savedKey)||"{}")}catch(e){return{}}}
 function saveSavedState(v){try{localStorage.setItem(savedKey,JSON.stringify(v))}catch(e){}}
 function remoteRow(id){return REMOTE_ROWS.find(r=>String(r.job_id)===String(id))||null}
-function getStatus(id){const r=remoteRow(id);return r&&r.status?r.status:"Nuova"}
-function isDismissed(id){const r=remoteRow(id);return !!(r&&r.dismissed)}
-function isApplied(id){const r=remoteRow(id);return !!(r&&r.applied&&!r.dismissed)}
-function isSaved(id){const r=remoteRow(id);return !!(r&&r.saved)}
+function getStatus(id){const r=remoteRow(id);if(r&&r.status)return r.status;const s=state();return s[String(id)]||"Nuova"}
+function isDismissed(id){const r=remoteRow(id);if(r)return !!r.dismissed;return !!dismissedState()[String(id)]}
+function isApplied(id){const r=remoteRow(id);if(r)return !!(r.applied&&!r.dismissed);return !!appliedState()[String(id)]&&!isDismissed(id)}
+function isSaved(id){const r=remoteRow(id);if(r)return !!r.saved;return !!savedState()[String(id)]}
 
 function syncEnabled(){return !!(syncCfg.enabled&&syncCfg.url&&syncCfg.publishableKey)}
 function syncTable(){return String(syncCfg.table||"job_state").replace(/[^a-zA-Z0-9_]/g,"")}
 function syncHeaders(prefer){
- const h={"apikey":syncCfg.publishableKey,"Content-Type":"application/json","x-client-info":"alice-job-radar/shared"};
+ const h={"apikey":syncCfg.publishableKey,"Content-Type":"application/json","x-client-info":"giulia-job-radar/shared"};
  if(prefer)h["Prefer"]=prefer;
  return h;
 }
@@ -486,10 +486,17 @@ function replaceLocalFromRemote(rows){
  saveState(st);saveSavedState(sv);writeObjectStore(appliedKey,ap);writeObjectStore(dismissedKey,di);
 }
 async function writeJob(id,patch){
- if(!syncEnabled())throw Error("sync disabled");
- const row=jobRow(id,patch);
+ const sid=String(id);
+ if(!syncEnabled()){
+  if(patch.status!==undefined){const s=state(); if(patch.status&&patch.status!=="Nuova")s[sid]=patch.status; else delete s[sid]; saveState(s)}
+  if(patch.saved!==undefined){const s=savedState(); if(patch.saved)s[sid]=true; else delete s[sid]; saveSavedState(s)}
+  if(patch.applied!==undefined){const s=appliedState(); if(patch.applied)s[sid]={at:new Date().toISOString()}; else delete s[sid]; writeObjectStore(appliedKey,s)}
+  if(patch.dismissed!==undefined){const s=dismissedState(); const j=DATA.find(x=>String(x.id)===sid); if(patch.dismissed)s[sid]={at:patch.dismissed_at||new Date().toISOString(),company:(j&&j.company)||"",title:(j&&j.title)||"",url:(j&&j.url)||""}; else delete s[sid]; writeObjectStore(dismissedKey,s)}
+  return jobRow(sid,patch);
+ }
+ const row=jobRow(sid,patch);
  await upsertRows([row]);
- const idx=REMOTE_ROWS.findIndex(r=>String(r.job_id)===String(id));
+ const idx=REMOTE_ROWS.findIndex(r=>String(r.job_id)===sid);
  if(idx>=0)REMOTE_ROWS[idx]=row; else REMOTE_ROWS.push(row);
  return row;
 }
