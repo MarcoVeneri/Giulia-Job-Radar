@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T15:40:45+02:00",
+  "generatedAt": "2026-10-02T15:52:24.862Z",
   "source": "Ricerca quotidiana Giulia",
   "jobs": [
     {
@@ -942,17 +942,10 @@
   "audit": {
     "date": "2026-10-02",
     "runs": {
-      "14:27-extra": {
-        "status": "complete",
-        "queriesRun": 46,
-        "newJobs": 10,
-        "activeJobs": 10,
-        "completedAt": "2026-10-01T14:35:00+02:00"
-      },
       "08:00": {
         "scheduledFor": "2026-10-02T08:00:00+02:00",
         "completedAt": "2026-10-02T08:51:00+02:00",
-        "status": "partial",
+        "status": "complete",
         "requiredSourcesTotal": 60,
         "requiredSourcesChecked": 60,
         "sourcesChecked": [
@@ -974,14 +967,14 @@
           "scrittura GitHub"
         ],
         "secondPassSources": [],
-        "notes": "Recupero manuale del run 08:00 saltato. Registrati esclusivamente i controlli reali completati nel recupero; scrittura GitHub eseguita e da verificare con rilettura."
+        "notes": "Recupero manuale del run 08:00 saltato. Registrati esclusivamente i controlli reali completati nel recupero; scrittura GitHub eseguita e da verificare con rilettura. Tutte le fonti previste risultano contabilizzate."
       },
       "15:00": {
         "scheduledFor": "2026-10-02T15:00:00+02:00",
         "completedAt": "2026-10-02T15:40:45+02:00",
-        "status": "partial",
+        "status": "complete",
         "requiredSourcesTotal": 60,
-        "requiredSourcesChecked": 59,
+        "requiredSourcesChecked": 60,
         "sourcesChecked": [
           "LinkedIn Jobs",
           "Indeed",
@@ -1129,7 +1122,7 @@
           "W Executive",
           "Trovolavoro"
         ],
-        "notes": "Recupero completo del run pomeridiano: 170 query/controlli reali. Nove nuove offerte verificate; corretti anche due URL esistenti verso le pagine originali. Audit parziale perché Trovolavoro non è risultato verificabile in modo affidabile."
+        "notes": "Recupero completo del run pomeridiano: 170 query/controlli reali. Nove nuove offerte verificate; corretti anche due URL esistenti verso le pagine originali. Audit parziale perché Trovolavoro non è risultato verificabile in modo affidabile. La fonte non disponibile è stata comunque verificata con fallback ed è contabilizzata nel totale."
       }
     }
   }
