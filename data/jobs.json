@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T15:52:24.862Z",
+  "generatedAt": "2026-10-03T05:59:00.000Z",
   "source": "Ricerca quotidiana Giulia",
   "jobs": [
     {
@@ -61,10 +61,11 @@
       "url": "https://www.manpower.it/it/annuncio-lavoro/consumer-products/produzione/addettao-al-confezionamento-alimentare-montevarchi/1040609",
       "summary": "Vendita diretta, riordino area vendita e confezionamento alimentare.",
       "checks": [
-        "Sede verificata"
+        "Sede verificata",
+        "Offerta non più disponibile o pagina specifica rimossa al 03/10/2026"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
       "firstSeenRun": "14:27",
       "score": 10
@@ -105,10 +106,11 @@
       "url": "https://www.umana.it/per-le-persone/offerte-di-lavoro/addetto-banco-gastronomia-gdo/314237/",
       "summary": "Banco gastronomia in supermercato nell'area di Arezzo.",
       "checks": [
-        "Sede verificata"
+        "Sede verificata",
+        "Offerta non più disponibile o pagina specifica rimossa al 03/10/2026"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
       "firstSeenRun": "14:27",
       "score": 9.7
@@ -149,10 +151,11 @@
       "url": "https://lavoraconnoi.gruppopellegrini.it/candidature/ricercheincorso.aspx",
       "summary": "Servizio mensa, porzionamento, lavaggio e riassetto cucina in ristorante aziendale.",
       "checks": [
-        "Sede verificata"
+        "Sede verificata",
+        "Offerta non più disponibile o pagina specifica rimossa al 03/10/2026"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
       "firstSeenRun": "14:27",
       "score": 9.7
@@ -234,12 +237,13 @@
       "salary": "Non dichiarato",
       "category": "Ristorazione",
       "score": 10,
-      "source": "Ali Lavoro / LinkedIn",
-      "url": "https://it.linkedin.com/jobs/view/addetto-a-gastronomia-at-ali-lavoro-4469038040",
+      "source": "Ali Lavoro",
+      "url": "https://careers.alilavoro.it/job/view-job.php?id=88868-addetto-a-gastronomia-figline-e-incisa-valdarno&language=it",
       "summary": "Gestione banco gastronomia e salumeria, allestimento, riordino, accoglienza e servizio diretto alla clientela.",
       "checks": [
         "Sede nel perimetro",
-        "Esperienza di Giulia in gastronomia direttamente coerente"
+        "Esperienza di Giulia in gastronomia direttamente coerente",
+        "Pagina ufficiale Ali Lavoro verificata il 03/10/2026"
       ],
       "remote": false,
       "active": true,
@@ -331,10 +335,11 @@
       "summary": "Assistenza clienti, cassa, scaffali, layout merceologico e pulizia del punto vendita.",
       "checks": [
         "Montevarchi nel perimetro",
-        "Esperienza GDO/alimentare valorizzata"
+        "Esperienza GDO/alimentare valorizzata",
+        "Offerta non più disponibile o pagina specifica rimossa al 03/10/2026"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-01T15:08:25+02:00",
       "firstSeenRun": "15:00"
     },
@@ -715,10 +720,11 @@
         "Sede nel perimetro",
         "Annuncio verificato nel recupero del run 08:00",
         "Orario 30 ore settimanali",
-        "URL originale Openjobmetis verificato il 2 ottobre 2026"
+        "URL originale Openjobmetis verificato il 2 ottobre 2026",
+        "Offerta non più disponibile o pagina specifica rimossa al 03/10/2026"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-02T08:51:00+02:00",
       "firstSeenRun": "08:00"
     },
@@ -931,47 +937,96 @@
       "checks": [
         "Pagina specifica verificata il 2 ottobre 2026",
         "Sede Firenze compatibile",
-        "Annuncio attivo"
+        "Annuncio attivo",
+        "Offerta non più disponibile o pagina specifica rimossa al 03/10/2026"
+      ],
+      "remote": false,
+      "active": false,
+      "firstSeenAt": "2026-10-02T15:40:45+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "mediaworld-figline-965803801",
+      "date": "2026-10-03",
+      "company": "MediaWorld",
+      "title": "Addetti/e Vendita Figline Valdarno",
+      "location": "Figline e Incisa Valdarno (FI)",
+      "workMode": "In presenza",
+      "contract": "Tempo determinato iniziale · Part-time su turni · possibilità di inserimento stabile",
+      "salary": "Circa 23.300 € annui lordi full-time equivalente",
+      "category": "Vendita",
+      "score": 9.7,
+      "source": "MediaWorld Careers",
+      "url": "https://careers.mediamarktsaturn.com/MediaWorld/job/Figline-E-Incisa-Valdarno-Addettie-Vendita-Figline-Valdarno-50063/965803801/",
+      "summary": "Vendita e consulenza ai clienti nel punto vendita MediaWorld di Figline Valdarno, con formazione continua e attività su turni.",
+      "checks": [
+        "Pagina career ufficiale verificata il 03/10/2026",
+        "Sede nel perimetro",
+        "Part-time dichiarato; RAL riparametrata sull'orario"
       ],
       "remote": false,
       "active": true,
-      "firstSeenAt": "2026-10-02T15:40:45+02:00",
-      "firstSeenRun": "15:00"
+      "firstSeenAt": "2026-10-03T07:59:00+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "linkedin-eurospin-arezzo-4468261183",
+      "date": "2026-10-03",
+      "company": "Eurospin Tirrenica S.p.A.",
+      "title": "Addetto/a vendita – Personale Punto Vendita di Arezzo",
+      "location": "Arezzo (AR)",
+      "workMode": "In presenza",
+      "contract": "Orario su turni e festivi · durata non dichiarata",
+      "salary": "23.237 € annui lordi",
+      "category": "Vendita",
+      "score": 9.7,
+      "source": "Eurospin / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/addetto-a-vendita-%E2%80%93-personale-punto-vendita-di-arezzo-ar-at-eurospin-4468261183",
+      "summary": "Assistenza clienti, cassa, rifornimento scaffali, cura del layout e pulizia del punto vendita Eurospin di Arezzo.",
+      "checks": [
+        "Pagina specifica verificata il 03/10/2026",
+        "Sede Arezzo nel perimetro",
+        "Retribuzione dichiarata da Eurospin",
+        "Patente e disponibilità su turni richieste"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-03T07:59:00+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "randstad-terranuova-rifornimento-cx580594",
+      "date": "2026-09-18",
+      "company": "Azienda del territorio tramite Randstad",
+      "title": "Addetto al rifornimento",
+      "location": "Terranuova Bracciolini / Arezzo-Valdarno",
+      "workMode": "In presenza sul territorio",
+      "contract": "Somministrazione iniziale a scopo assuntivo · Full-time · CCNL Commercio",
+      "salary": "22.000–28.000 € annui",
+      "category": "Servizi",
+      "score": 9.3,
+      "source": "Randstad",
+      "url": "https://www.randstad.it/offerte-lavoro/addetto-al-rifornimento-mfnb_terranuova-bracciolini_bd96aa1c-75af-4fdb-b7ba-fdad64764edd/",
+      "summary": "Rifornimento e pulizia distributori automatici, gestione carico, scorte e incassi con furgone aziendale.",
+      "checks": [
+        "Pagina Randstad verificata il 03/10/2026",
+        "Pubblicata il 18/09/2026",
+        "Scadenza 31/10/2026",
+        "Patente B richiesta",
+        "Sede nel perimetro"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-03T07:59:00+02:00",
+      "firstSeenRun": "08:00"
     }
   ],
   "audit": {
-    "date": "2026-10-02",
+    "date": "2026-10-03",
     "runs": {
       "08:00": {
-        "scheduledFor": "2026-10-02T08:00:00+02:00",
-        "completedAt": "2026-10-02T08:51:00+02:00",
-        "status": "complete",
-        "requiredSourcesTotal": 60,
-        "requiredSourcesChecked": 60,
-        "sourcesChecked": [
-          "Recupero scansione profonda: 60 fonti/controlli verificati nel run"
-        ],
-        "sourcesUnavailable": [],
-        "extraSourcesChecked": [],
-        "companiesChecked": [
-          "Openjobmetis e fonti del recupero 08:00"
-        ],
-        "queriesRun": 60,
-        "newJobs": 1,
-        "activeJobs": 31,
-        "layersCompleted": [
-          "ricerca profonda",
-          "matching semantico",
-          "ricontrollo offerte esistenti",
-          "dedupe",
-          "scrittura GitHub"
-        ],
-        "secondPassSources": [],
-        "notes": "Recupero manuale del run 08:00 saltato. Registrati esclusivamente i controlli reali completati nel recupero; scrittura GitHub eseguita e da verificare con rilettura. Tutte le fonti previste risultano contabilizzate."
-      },
-      "15:00": {
-        "scheduledFor": "2026-10-02T15:00:00+02:00",
-        "completedAt": "2026-10-02T15:40:45+02:00",
+        "scheduledFor": "2026-10-03T08:00:00+02:00",
+        "completedAt": "2026-10-03T07:59:00+02:00",
         "status": "complete",
         "requiredSourcesTotal": 60,
         "requiredSourcesChecked": 60,
@@ -1034,95 +1089,63 @@
           "SAPIENS",
           "La Risorsa Umana",
           "CPL Taylor",
-          "Lavoro.it"
+          "Lavoro.it",
+          "Trovolavoro"
         ],
         "sourcesUnavailable": [
-          "Trovolavoro — accesso diretto non riuscito e nessun riscontro corrente affidabile dopo tre query fallback e secondo passaggio"
+          "Alcune pagine specifiche hanno restituito errore tecnico o contenuto non indicizzabile; sono state usate pagine ufficiali o risultati indicizzati quando disponibili"
         ],
         "extraSourcesChecked": [
-          "Google/Bing indexed vacancy pages",
-          "LinkedIn company jobs",
-          "Indeed company pages",
-          "Career page aziendali ufficiali"
+          "MediaWorld Careers",
+          "Eurospin company job page",
+          "Randstad job page",
+          "Career page aziende locali",
+          "Rilettura diretta di 40 offerte esistenti"
         ],
         "companiesChecked": [
-          "Lidl Italia",
-          "PittaRosso",
-          "METRO Italia",
-          "ALCOTT",
-          "Rinascente",
-          "Foot Locker",
-          "Salmoiraghi & Viganò",
-          "Gi Group",
-          "Randstad",
-          "Openjobmetis",
+          "MediaWorld",
           "Eurospin",
-          "Unicomm/GMF",
+          "Randstad",
+          "Unicoop Firenze",
+          "Gottardo",
+          "Ali Lavoro",
           "Umana",
           "Pellegrini",
           "Chef Express",
+          "NKD",
           "Camst",
-          "OBI Italia",
-          "NaturaSì",
-          "Unicoop Firenze",
-          "NKD Group",
-          "IVS Italia"
+          "OBI",
+          "IVS Italia",
+          "Lidl",
+          "METRO",
+          "PittaRosso",
+          "ALCOTT",
+          "Foot Locker",
+          "NaturaSì"
         ],
-        "atsChecked": [
-          "LinkedIn Jobs",
-          "Indeed",
-          "Foot Locker Careers",
-          "Openjobmetis Careers",
-          "Gi Group Careers",
-          "Randstad Jobs",
-          "Workday/MyWorkdayJobs",
-          "SuccessFactors",
-          "Greenhouse",
-          "Lever",
-          "Taleo",
-          "SmartRecruiters",
-          "Recruitee",
-          "Teamtailor",
-          "Ashby",
-          "iCIMS",
-          "Workable",
-          "Jobvite"
-        ],
-        "queriesRun": 170,
-        "newJobs": 9,
-        "activeJobs": 40,
+        "queriesRun": 72,
+        "newJobs": 3,
+        "activeJobs": 37,
         "layersCompleted": [
-          "portali generalisti",
-          "agenzie per il lavoro",
-          "aggregatori",
-          "career page aziende",
-          "ATS",
-          "ricerche web domain-restricted",
-          "keyword operative",
-          "aziende toscane",
+          "60 fonti indipendenti",
+          "career page e aziende locali",
+          "matching semantico",
+          "geografia rigida",
           "ricontrollo offerte esistenti",
-          "secondo passaggio fonti",
-          "terzo passaggio cluster vendita e magazzino",
           "dedupe",
+          "scoring",
           "scrittura GitHub"
         ],
         "secondPassSources": [
-          "Manpower",
-          "Hays",
-          "Lavoropiù",
-          "Ali Lavoro",
-          "During",
-          "Staff S.p.A.",
-          "Atempo",
-          "Hunters Group",
-          "Wyser",
-          "IQM Selezione",
-          "Profili & Carriere",
-          "Knet Human Resources",
-          "W Executive",
-          "Trovolavoro"
+          "MediaWorld Careers",
+          "Eurospin / LinkedIn",
+          "Randstad",
+          "Umana",
+          "Pellegrini",
+          "Chef Express",
+          "Ali Lavoro"
         ],
-        "notes": "Recupero completo del run pomeridiano: 170 query/controlli reali. Nove nuove offerte verificate; corretti anche due URL esistenti verso le pagine originali. Audit parziale perché Trovolavoro non è risultato verificabile in modo affidabile. La fonte non disponibile è stata comunque verificata con fallback ed è contabilizzata nel totale."
+        "notes": "Scansione profonda completata. Tre nuove offerte verificate e inserite. Sei offerte precedenti non più disponibili o con pagina specifica rimossa sono state mantenute nello storico con active=false. Aggiornato l'URL Ali Lavoro alla pagina ufficiale. Nessuna candidatura o comunicazione inviata."
       }
     }
   }
