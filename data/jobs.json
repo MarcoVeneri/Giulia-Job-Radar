@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T13:05:19.000Z",
+  "generatedAt": "2026-10-05T14:34:00.000Z",
   "source": "Ricerca quotidiana Giulia",
   "jobs": [
     {
@@ -554,7 +554,7 @@
         "Gestionale Arca Evolution gradito ma non obbligatorio"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-01T15:08:25+02:00",
       "firstSeenRun": "15:00"
     },
@@ -1278,11 +1278,11 @@
     }
   ],
   "audit": {
-    "date": "2026-10-04",
+    "date": "2026-10-05",
     "runs": {
-      "08:00": {
-        "scheduledFor": "2026-10-04T08:00:00+02:00",
-        "completedAt": "2026-10-04T08:04:18+02:00",
+      "15:00": {
+        "scheduledFor": "2026-10-05T15:00:00+02:00",
+        "completedAt": "2026-10-05T16:34:00+02:00",
         "status": "complete",
         "requiredSourcesTotal": 60,
         "requiredSourcesChecked": 60,
@@ -1349,28 +1349,26 @@
           "Trovolavoro"
         ],
         "sourcesUnavailable": [
-          "Alcune pagine dinamiche, protette o non indicizzabili hanno restituito contenuto vuoto o timeout; i domini sono stati interrogati e, quando possibile, verificati con pagine ufficiali o risultati indicizzati recenti"
+          "Quattordici dei quindici blocchi di ricerca per dominio hanno restituito risultati vuoti; le 60 fonti sono state interrogate senza attribuire loro offerte non osservate",
+          "Alcune pagine dinamiche o protette non erano leggibili direttamente; le verifiche sono state completate tramite URL specifici e risultati indicizzati quando disponibili"
         ],
         "extraSourcesChecked": [
-          "OBI Italia / Jooble",
-          "During / Trovolavoro / HelpLavoro",
-          "Adecco / uCV",
-          "Career page e aziende locali",
-          "Rilettura diretta delle 40 offerte attive"
+          "Ricerca trasversale estesa su geografia e famiglie di ruolo",
+          "Secondo passaggio Ali Lavoro, Synergie, Jooble e Life in",
+          "Rilettura diretta delle 46 offerte attive"
         ],
         "companiesChecked": [
-          "OBI Italia",
-          "During",
-          "Adecco",
+          "Eurospin",
           "Unicomm",
           "Manpower",
           "Umana",
           "Randstad",
-          "Eurospin",
           "Ali Lavoro",
           "NKD",
           "Camst",
           "IVS Italia",
+          "OBI Italia",
+          "AxL",
           "Chef Express",
           "Openjobmetis",
           "Unicoop Firenze",
@@ -1382,142 +1380,13 @@
           "Foot Locker",
           "Gi Group",
           "MediaWorld",
-          "Margherita Società Cooperativa Sociale"
-        ],
-        "queriesRun": 71,
-        "newJobs": 3,
-        "activeJobs": 42,
-        "layersCompleted": [
-          "60 fonti indipendenti",
-          "career page e aziende locali",
-          "matching semantico",
-          "geografia rigida",
-          "ricontrollo offerte esistenti",
-          "dedupe",
-          "scoring",
-          "scrittura GitHub"
-        ],
-        "secondPassSources": [
-          "OBI Italia / Jooble",
-          "During / Trovolavoro / HelpLavoro",
-          "Adecco / uCV",
-          "Randstad",
-          "Indeed",
-          "Manpower",
-          "Umana",
-          "MediaWorld"
-        ],
-        "notes": "Scansione profonda completata. Tre nuove offerte verificate e inserite. Le 40 offerte precedentemente attive sono state ricontrollate; un annuncio SimplyHired non più disponibile è stato mantenuto nello storico con active=false. Escluse offerte fuori geografia, duplicate, scadute o non verificabili. Nessuna candidatura o comunicazione inviata."
-      },
-      "15:00": {
-        "scheduledFor": "2026-10-04T15:00:00+02:00",
-        "completedAt": "2026-10-04T15:05:19+02:00",
-        "status": "complete",
-        "requiredSourcesTotal": 60,
-        "requiredSourcesChecked": 60,
-        "sourcesChecked": [
-          "LinkedIn Jobs",
-          "Indeed",
-          "Monster",
-          "Randstad",
-          "Adecco",
-          "Manpower",
-          "Gi Group",
-          "Grafton",
-          "Hays",
-          "Michael Page",
-          "Page Personnel",
-          "Openjobmetis",
-          "Synergie",
-          "Orienta",
-          "Lavoropiù",
-          "Jobrapido",
-          "Jooble",
-          "Talent.com",
-          "Glassdoor Jobs",
-          "Careerjet",
-          "Bakeca Lavoro",
-          "Helplavoro",
-          "Experis",
-          "Umana",
-          "Ali Lavoro",
-          "During",
-          "Etjca",
-          "MAW",
-          "Humangest",
-          "ADHR Group",
-          "Staff S.p.A.",
-          "Atempo",
-          "ARTI Toscana",
-          "inPA",
-          "Adzuna",
-          "Jobbydoo",
-          "Jobijoba",
-          "SimplyHired",
-          "Subito Lavoro",
-          "CercoLavoro",
-          "CVing",
-          "Hunters Group",
-          "Wyser",
-          "IQM Selezione",
-          "High Professional",
-          "Profili & Carriere",
-          "Knet Human Resources",
-          "W Executive",
-          "Jefferson Wells",
-          "LHH",
-          "Jobtech",
-          "e-work",
-          "Iziwork",
-          "Eurointerim",
-          "QuoJobis",
-          "SAPIENS",
-          "La Risorsa Umana",
-          "CPL Taylor",
-          "Lavoro.it",
-          "Trovolavoro"
-        ],
-        "sourcesUnavailable": [
-          "Alcune pagine dinamiche o protette hanno restituito contenuto vuoto, 401/403 o timeout; i domini sono stati interrogati e le offerte nuove sono state confermate tramite pagine specifiche indicizzate o fonti incrociate"
-        ],
-        "extraSourcesChecked": [
-          "During job pages",
-          "HelpLavoro",
-          "Lavoropiù / Trovolavoro",
-          "PortaleGiovani Comune di Firenze",
-          "Manpower job pages",
-          "Bakeca Arezzo",
-          "Career page e aziende locali",
-          "Rilettura diretta delle 42 offerte attive"
-        ],
-        "companiesChecked": [
           "During",
           "Lavoropiù",
-          "Manpower",
-          "OBI Italia",
-          "Adecco",
-          "Randstad",
-          "Unicomm",
-          "Eurospin",
-          "Ali Lavoro",
-          "NKD",
-          "Camst",
-          "IVS Italia",
-          "Chef Express",
-          "Openjobmetis",
-          "Unicoop Firenze",
-          "NaturaSì",
-          "Lidl",
-          "PittaRosso",
-          "METRO",
-          "ALCOTT",
-          "Foot Locker",
-          "Gi Group",
-          "MediaWorld"
+          "Adecco"
         ],
         "queriesRun": 68,
-        "newJobs": 4,
-        "activeJobs": 46,
+        "newJobs": 0,
+        "activeJobs": 45,
         "layersCompleted": [
           "60 fonti indipendenti",
           "career page e aziende locali",
@@ -1529,16 +1398,16 @@
           "scrittura GitHub"
         ],
         "secondPassSources": [
-          "During",
-          "HelpLavoro",
-          "Lavoropiù",
-          "Trovolavoro",
-          "Manpower",
+          "Jooble",
+          "Ali Lavoro",
+          "Synergie",
+          "Life in",
           "Indeed",
-          "Bakeca",
-          "PortaleGiovani Comune di Firenze"
+          "Manpower",
+          "Openjobmetis",
+          "Randstad"
         ],
-        "notes": "Scansione pomeridiana completa. Quattro nuove offerte verificate e inserite. Le 42 offerte già attive sono state ricontrollate; non sono emerse ulteriori scadenze certe. Escluse offerte fuori geografia, duplicate, scadute, incoerenti o non verificabili. Nessuna candidatura o comunicazione inviata."
+        "notes": "Scansione profonda completata. Nessuna nuova offerta sufficientemente verificata da inserire. Le 46 offerte attive sono state ricontrollate; l'annuncio Openjobmetis 134341 restituisce 404 ed è stato conservato nello storico con active=false. Escluse offerte fuori geografia, duplicate, scadute o non verificabili. Nessuna candidatura o comunicazione inviata."
       }
     }
   }
