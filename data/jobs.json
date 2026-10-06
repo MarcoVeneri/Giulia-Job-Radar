@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:34:00.000Z",
+  "generatedAt": "2026-10-06T06:07:00.000Z",
   "source": "Ricerca quotidiana Giulia",
   "jobs": [
     {
@@ -87,7 +87,7 @@
         "Sede verificata"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-01T14:27:53+02:00",
       "firstSeenRun": "14:27",
       "score": 9.5
@@ -1275,14 +1275,163 @@
       "active": true,
       "firstSeenAt": "2026-10-04T15:05:19+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "staff-firenze-servizio-clienti-cucina-70454",
+      "date": "2026-10-05",
+      "company": "Catena di ristorazione tramite Staff S.p.A.",
+      "title": "Addetti/e al servizio clienti e cucina",
+      "location": "Firenze (FI)",
+      "workMode": "In presenza",
+      "contract": "Tempo determinato finalizzato all'inserimento · Part time 24 ore",
+      "salary": "1.328,50 € lordi/mese (CCNL livello 2)",
+      "category": "Ristorazione",
+      "score": 8.8,
+      "source": "Staff S.p.A.",
+      "url": "https://careers.staff.it/job/view-job.php?id=70454-addetti-e-al-servizio-clienti-e-cucina-firenze&language=en",
+      "summary": "Accoglienza clienti, cassa, supporto in cucina, pulizia e riordino per una catena di ristorazione.",
+      "checks": [
+        "Scheda aggiornata il 05/10/2026",
+        "Work location indicata Firenze",
+        "Part time 24 ore",
+        "Tre posizioni disponibili"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-06T08:07:00+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "staff-firenze-pulizie-centro-69823",
+      "date": "2026-09-24",
+      "company": "Azienda di pulizie professionali tramite Staff S.p.A.",
+      "title": "Addette/i alle pulizie - Centro storico",
+      "location": "Firenze centro storico (FI)",
+      "workMode": "In presenza",
+      "contract": "Somministrazione a tempo determinato · Part time 18 ore",
+      "salary": "1.200–1.600 € lordi/mese dichiarati dal portale",
+      "category": "Servizi",
+      "score": 9.1,
+      "source": "Staff S.p.A.",
+      "url": "https://careers.staff.it/job/view-job.php?id=69823-addette-i-pulizie-centro-storico-firenze-firenze&language=it",
+      "summary": "Pulizia di locali, bar e aree vendita in una realtà di ristorazione e intrattenimento nel centro storico.",
+      "checks": [
+        "Scadenza 26/11/2026",
+        "Sede Firenze centro storico",
+        "Orario 06:00–09:00 dalla domenica al venerdì",
+        "CCNL Multiservizi"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-06T08:07:00+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "staff-firenze-campo-marte-barista-70387",
+      "date": "2026-10-01",
+      "company": "Gruppo di ristorazione veloce tramite Staff S.p.A.",
+      "title": "Barista/Banconista stazione part-time",
+      "location": "Firenze - Stazione Campo Marte",
+      "workMode": "In presenza",
+      "contract": "Part time 24 ore · finalizzato all'inserimento",
+      "salary": "12.900–13.400 € lordi annui",
+      "category": "Ristorazione",
+      "score": 9.4,
+      "source": "Staff S.p.A.",
+      "url": "https://careers.staff.it/job/view-job.php?id=70387-barista-banconista-stazione-part-time-firenze&language=en",
+      "summary": "Cassa, preparazione e servizio di cibi e bevande, pulizia del locale e supporto al magazzino.",
+      "checks": [
+        "Sede esatta: Stazione Firenze Campo Marte",
+        "Scheda aggiornata il 01/10/2026",
+        "CCNL Turismo/Pubblici Esercizi, 5° livello"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-06T08:07:00+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "ework-firenze-lavapiatti-3323",
+      "date": "2026-09-08",
+      "company": "Realtà catering ed eventi tramite e-work S.p.A.",
+      "title": "Lavapiatti",
+      "location": "Firenze (FI)",
+      "workMode": "In presenza",
+      "contract": "Non dichiarato · attività su eventi",
+      "salary": "8,00–9,00 € lordi/ora",
+      "category": "Ristorazione",
+      "score": 8.4,
+      "source": "e-work S.p.A.",
+      "url": "https://www.e-workspa.it/annuncio-di-lavoro/lavapiatti-firenze/",
+      "summary": "Lavaggio stoviglie e attrezzature, riordino degli spazi e supporto operativo alla brigata di cucina.",
+      "checks": [
+        "Pagina candidatura attiva",
+        "Sede Firenze",
+        "Disponibilità immediata",
+        "Orari variabili in base agli eventi"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-06T08:07:00+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "openjobmetis-figline-fustellatrice-135037",
+      "date": "2026-09-09",
+      "company": "Azienda cartotecnica tramite Openjobmetis",
+      "title": "Addetto/Addetta alla macchina fustellatrice",
+      "location": "Figline e Incisa Valdarno (FI)",
+      "workMode": "In presenza",
+      "contract": "Somministrazione a tempo determinato · finalizzata all'inserimento",
+      "salary": "20.000–22.000 € lordi annui",
+      "category": "Produzione",
+      "score": 8.3,
+      "source": "Openjobmetis",
+      "url": "https://openjobmetis.it/it/candidati/offerte-di-lavoro/addetto-addetta-alla-macchina-fustellatrice-135037",
+      "summary": "Conduzione e attrezzaggio di macchine fustellatrici e controllo qualità nel settore cartotecnico.",
+      "checks": [
+        "Offerta n. 135037",
+        "Sede Figline e Incisa Valdarno",
+        "Pagina candidatura attiva",
+        "Esperienza anche minima richiesta"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-06T08:07:00+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "gigroup-reggello-operaio-produzione-1373083",
+      "date": "2026-09-28",
+      "company": "Azienda meccanica tramite Gi Group",
+      "title": "Operaio/Operaia generico/a di produzione",
+      "location": "Reggello (FI)",
+      "workMode": "In presenza",
+      "contract": "Somministrazione a tempo determinato · Full time",
+      "salary": "20.300–21.770 € lordi annui",
+      "category": "Produzione",
+      "score": 8.6,
+      "source": "Gi Group",
+      "url": "https://www.gigroup.it/offerte-lavoro-dettaglio/san-giovanni-valdarno-arezzo-operaio-di-produzione/1373083/",
+      "summary": "Supporto alla produzione e assemblaggio, uso di macchinari e controllo qualità per azienda meccanica.",
+      "checks": [
+        "Luogo di lavoro indicato nella descrizione: Reggello",
+        "Annuncio pubblicato circa 8 giorni prima del controllo",
+        "Orario lunedì-venerdì 08:00–17:00",
+        "Ref. 1732709"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-06T08:07:00+02:00",
+      "firstSeenRun": "08:00"
     }
   ],
   "audit": {
-    "date": "2026-10-05",
+    "date": "2026-10-06",
     "runs": {
-      "15:00": {
-        "scheduledFor": "2026-10-05T15:00:00+02:00",
-        "completedAt": "2026-10-05T16:34:00+02:00",
+      "08:00": {
+        "scheduledFor": "2026-10-06T08:00:00+02:00",
+        "completedAt": "2026-10-06T08:07:00+02:00",
         "status": "complete",
         "requiredSourcesTotal": 60,
         "requiredSourcesChecked": 60,
@@ -1349,19 +1498,24 @@
           "Trovolavoro"
         ],
         "sourcesUnavailable": [
-          "Quattordici dei quindici blocchi di ricerca per dominio hanno restituito risultati vuoti; le 60 fonti sono state interrogate senza attribuire loro offerte non osservate",
-          "Alcune pagine dinamiche o protette non erano leggibili direttamente; le verifiche sono state completate tramite URL specifici e risultati indicizzati quando disponibili"
+          "Alcune pagine dinamiche o protette non erano leggibili direttamente; sono state verificate tramite pagine ufficiali indicizzate e fonti specifiche quando disponibili",
+          "Una pagina Gi Group ha restituito timeout all'apertura diretta dopo essere stata recuperata integralmente nei risultati indicizzati"
         ],
         "extraSourcesChecked": [
-          "Ricerca trasversale estesa su geografia e famiglie di ruolo",
-          "Secondo passaggio Ali Lavoro, Synergie, Jooble e Life in",
-          "Rilettura diretta delle 46 offerte attive"
+          "Career page Staff S.p.A.",
+          "Career page Openjobmetis",
+          "Career page e-work",
+          "Pagine Gi Group Firenze e Valdarno",
+          "Rilettura diretta delle 45 offerte attive"
         ],
         "companiesChecked": [
+          "Staff S.p.A.",
+          "Openjobmetis",
+          "e-work",
+          "Gi Group",
+          "Manpower",
           "Eurospin",
           "Unicomm",
-          "Manpower",
-          "Umana",
           "Randstad",
           "Ali Lavoro",
           "NKD",
@@ -1370,7 +1524,6 @@
           "OBI Italia",
           "AxL",
           "Chef Express",
-          "Openjobmetis",
           "Unicoop Firenze",
           "NaturaSì",
           "Lidl",
@@ -1378,15 +1531,14 @@
           "METRO",
           "ALCOTT",
           "Foot Locker",
-          "Gi Group",
           "MediaWorld",
           "During",
           "Lavoropiù",
           "Adecco"
         ],
         "queriesRun": 68,
-        "newJobs": 0,
-        "activeJobs": 45,
+        "newJobs": 6,
+        "activeJobs": 50,
         "layersCompleted": [
           "60 fonti indipendenti",
           "career page e aziende locali",
@@ -1398,16 +1550,16 @@
           "scrittura GitHub"
         ],
         "secondPassSources": [
-          "Jooble",
-          "Ali Lavoro",
-          "Synergie",
-          "Life in",
-          "Indeed",
-          "Manpower",
+          "Staff S.p.A.",
           "Openjobmetis",
-          "Randstad"
+          "Gi Group",
+          "Randstad",
+          "e-work",
+          "Manpower",
+          "Indeed",
+          "Helplavoro"
         ],
-        "notes": "Scansione profonda completata. Nessuna nuova offerta sufficientemente verificata da inserire. Le 46 offerte attive sono state ricontrollate; l'annuncio Openjobmetis 134341 restituisce 404 ed è stato conservato nello storico con active=false. Escluse offerte fuori geografia, duplicate, scadute o non verificabili. Nessuna candidatura o comunicazione inviata."
+        "notes": "Scansione profonda completata. Sei nuove offerte verificate e inserite. Le 45 offerte precedentemente attive sono state ricontrollate; l'annuncio Manpower 1045375 di Bucine risulta non più disponibile ed è stato conservato nello storico con active=false. Escluse offerte fuori geografia, duplicate, scadute o con sede contraddittoria/non verificabile. Nessuna candidatura o comunicazione inviata."
       }
     }
   }
