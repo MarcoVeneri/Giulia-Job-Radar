@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T13:08:17.771Z",
+  "generatedAt": "2026-10-10T06:01:39.577Z",
   "source": "Ricerca quotidiana Giulia",
   "jobs": [
     {
@@ -1347,10 +1347,11 @@
       "checks": [
         "Sede esatta: Stazione Firenze Campo Marte",
         "Scheda aggiornata il 01/10/2026",
-        "CCNL Turismo/Pubblici Esercizi, 5° livello"
+        "CCNL Turismo/Pubblici Esercizi, 5° livello",
+        "Ricontrollo 10/10/2026: pagina sorgente restituisce HTTP 410 Gone"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-06T08:07:00+02:00",
       "firstSeenRun": "08:00"
     },
@@ -1372,10 +1373,11 @@
         "Pagina candidatura attiva",
         "Sede Firenze",
         "Disponibilità immediata",
-        "Orari variabili in base agli eventi"
+        "Orari variabili in base agli eventi",
+        "Ricontrollo 10/10/2026: pagina sorgente restituisce HTTP 404 Not Found"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-06T08:07:00+02:00",
       "firstSeenRun": "08:00"
     },
@@ -2020,11 +2022,12 @@
       "checks": [
         "Sede cittadina verificata",
         "Retribuzione e contratto verificati",
-        "Aggiornata il 07/10/2026"
+        "Aggiornata il 07/10/2026",
+        "Ricontrollo 10/10/2026: pagina sorgente restituisce HTTP 410 Gone"
       ],
       "workMode": "In presenza",
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-08T15:04:21+02:00",
       "firstSeenRun": "15:00"
     },
@@ -2295,14 +2298,64 @@
       "active": true,
       "firstSeenAt": "2026-10-09T15:08:17+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "sad-sgv-addetti-magazzino-20261009",
+      "date": "2026-10-09",
+      "company": "Azienda metalmeccanica tramite SAD Recruiting",
+      "title": "Addetti/e al magazzino",
+      "location": "San Giovanni Valdarno (AR)",
+      "workMode": "In presenza",
+      "contract": "Tempo determinato iniziale 6 mesi per sostituzione · Full time · CCNL Commercio",
+      "salary": "RAL indicativa €25.000 · €1.600–€2.000 lordi/mese",
+      "category": "Magazzino",
+      "score": 8.9,
+      "source": "SAD Recruiting / Trabajo",
+      "url": "https://it.trabajo.org/offerta-3189-5026c416bd433f86ae6621e77ea7c0dc",
+      "summary": "Carico e scarico, movimentazione e sistemazione delle merci, controllo del materiale in ingresso e uscita per una grande azienda metalmeccanica.",
+      "checks": [
+        "Sede San Giovanni Valdarno verificata",
+        "Scheda specifica pubblicata il 9 ottobre 2026",
+        "Contratto, RAL e data prevista di inserimento verificati",
+        "Annuncio distinto dal magazziniere mulettista Openjobmetis già presente"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-10T08:01:39+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "synergie-laterina-magazzino-20261009",
+      "date": "2026-10-09",
+      "company": "Azienda alimentare tramite Synergie",
+      "title": "Addetto/a al magazzino",
+      "location": "Laterina Pergine Valdarno (AR) – Laterina",
+      "workMode": "In presenza",
+      "contract": "Somministrazione a tempo determinato con proroga e finalità di inserimento · Full time",
+      "salary": "RAL €23.000–€25.000",
+      "category": "Magazzino",
+      "score": 9,
+      "source": "Synergie / Trabajo",
+      "url": "https://it.trabajo.org/offerta-3189-243da5e797956664ec4e48e5689d4d13",
+      "summary": "Ricezione e verifica merci, organizzazione del magazzino, preparazione ordini, monitoraggio giacenze e inventario in azienda alimentare.",
+      "checks": [
+        "Sede Laterina verificata nella scheda",
+        "Comune Laterina Pergine Valdarno ammesso",
+        "Scheda specifica pubblicata il 9 ottobre 2026",
+        "RAL e orario 08:00–17:00 verificati"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-10T08:01:39+02:00",
+      "firstSeenRun": "08:00"
     }
   ],
   "audit": {
-    "date": "2026-10-09",
+    "date": "2026-10-10",
     "runs": {
       "08:00": {
-        "scheduledFor": "2026-10-09T08:00:00+02:00",
-        "completedAt": "2026-10-09T08:02:44+02:00",
+        "scheduledFor": "2026-10-10T08:00:00+02:00",
+        "completedAt": "2026-10-10T08:01:39+02:00",
         "status": "complete",
         "requiredSourcesTotal": 60,
         "requiredSourcesChecked": 60,
@@ -2369,52 +2422,44 @@
           "Trovolavoro"
         ],
         "sourcesUnavailable": [
-          "Diverse fonti non hanno restituito risultati nuovi per la combinazione stretta di ruoli e comuni; il controllo è stato comunque eseguito e registrato",
-          "Alcune pagine dinamiche o protette hanno restituito accesso parziale; le offerte inserite sono state confermate tramite career page o schede specifiche indicizzate",
-          "Esclusi annunci con sede generica in provincia o in comuni non ammessi"
+          "Alcune pagine dinamiche o protette hanno restituito timeout, HTTP 403 o contenuti parziali; non sono state disattivate senza prova definitiva",
+          "Diverse fonti non hanno restituito risultati compatibili con ruoli e comuni ammessi",
+          "Esclusi annunci con sede provinciale generica, località fuori perimetro o sede non verificabile"
         ],
         "extraSourcesChecked": [
-          "Career page Etjca",
-          "Career page Synergie",
-          "Career page Adecco",
-          "Helplavoro / Ali Lavoro",
-          "Lavoro.it",
+          "Career page Manpower",
+          "Portale Openjobmetis",
+          "Portale Synergie",
           "Indeed",
+          "Trabajo",
           "Jooble",
-          "Rilettura diretta delle 73 offerte attive"
+          "Careerjet",
+          "Lavoro.it",
+          "Rilettura diretta delle 78 offerte attive"
         ],
         "companiesChecked": [
-          "Etjca",
-          "Ali Lavoro",
+          "SAD Recruiting",
           "Synergie",
-          "Adecco",
-          "Life in",
           "Openjobmetis",
-          "Gi Group",
           "Manpower",
           "Randstad",
+          "Adecco",
+          "Gi Group",
           "Orienta",
-          "Lavoropiù",
+          "Etjca",
+          "ADHR Group",
           "Staff S.p.A.",
+          "e-work",
+          "Ali Lavoro",
+          "During",
+          "Lavoropiù",
           "MAW",
-          "Humangest",
-          "Eurospin",
-          "Unicomm",
+          "Groove Ristorante",
           "MediaWorld",
-          "OBI Italia",
-          "Lidl",
-          "PittaRosso",
-          "METRO",
-          "ALCOTT",
-          "Foot Locker",
-          "Camst",
-          "Chef Express",
-          "Unicoop Firenze",
-          "NaturaSì",
-          "AIX"
+          "Unicomm"
         ],
-        "queriesRun": 77,
-        "newJobs": 4,
+        "queriesRun": 72,
+        "newJobs": 2,
         "activeJobs": 77,
         "layersCompleted": [
           "60 fonti indipendenti",
@@ -2427,145 +2472,16 @@
           "scrittura GitHub"
         ],
         "secondPassSources": [
-          "Etjca",
-          "Ali Lavoro",
           "Synergie",
-          "Adecco",
-          "Life in",
-          "Lavoro.it",
-          "Indeed",
-          "Jooble"
-        ],
-        "notes": "Scansione mattutina completa. Inserite 4 nuove offerte verificate. Ricontrollate tutte le 73 offerte precedentemente attive; nessuna è risultata definitivamente rimossa o scaduta. Esclusi duplicati, sedi fuori geografia e annunci con sede non sufficientemente precisa. Nessuna candidatura o comunicazione inviata."
-      },
-      "15:00": {
-        "scheduledFor": "2026-10-09T15:00:00+02:00",
-        "completedAt": "2026-10-09T15:08:17+02:00",
-        "status": "complete",
-        "requiredSourcesTotal": 60,
-        "requiredSourcesChecked": 60,
-        "sourcesChecked": [
-          "LinkedIn Jobs",
-          "Indeed",
-          "Monster",
-          "Randstad",
-          "Adecco",
-          "Manpower",
-          "Gi Group",
-          "Grafton",
-          "Hays",
-          "Michael Page",
-          "Page Personnel",
           "Openjobmetis",
-          "Synergie",
-          "Orienta",
-          "Lavoropiù",
-          "Jobrapido",
-          "Jooble",
-          "Talent.com",
-          "Glassdoor Jobs",
-          "Careerjet",
-          "Bakeca Lavoro",
-          "Helplavoro",
-          "Experis",
-          "Umana",
-          "Ali Lavoro",
-          "During",
-          "Etjca",
-          "MAW",
-          "Humangest",
-          "ADHR Group",
-          "Staff S.p.A.",
-          "Atempo",
-          "ARTI Toscana",
-          "inPA",
-          "Adzuna",
-          "Jobbydoo",
-          "Jobijoba",
-          "SimplyHired",
-          "Subito Lavoro",
-          "CercoLavoro",
-          "CVing",
-          "Hunters Group",
-          "Wyser",
-          "IQM Selezione",
-          "High Professional",
-          "Profili & Carriere",
-          "Knet Human Resources",
-          "W Executive",
-          "Jefferson Wells",
-          "LHH",
-          "Jobtech",
-          "e-work",
-          "Iziwork",
-          "Eurointerim",
-          "QuoJobis",
-          "SAPIENS",
-          "La Risorsa Umana",
-          "CPL Taylor",
-          "Lavoro.it",
-          "Trovolavoro"
-        ],
-        "sourcesUnavailable": [
-          "Alcune pagine dinamiche o protette hanno restituito timeout o HTTP 403; non sono state marcate inattive senza prova di rimozione",
-          "Diverse fonti non hanno restituito risultati compatibili con la combinazione stretta di ruoli e comuni",
-          "Esclusi annunci con sede generica in provincia, località non ammesse o senza una sede verificabile"
-        ],
-        "extraSourcesChecked": [
-          "Career page Manpower",
-          "Portale Job Camere",
+          "SAD Recruiting",
           "Indeed",
-          "Careerjet",
-          "Jobbydoo",
-          "Helplavoro",
+          "Trabajo",
           "Jooble",
-          "Rilettura diretta delle 77 offerte attive"
-        ],
-        "companiesChecked": [
-          "Manpower",
-          "Job Camere",
-          "Randstad",
-          "Adecco",
-          "Openjobmetis",
-          "Gi Group",
-          "Synergie",
-          "Etjca",
-          "Ali Lavoro",
-          "During",
-          "Staff S.p.A.",
-          "Lavoropiù",
-          "MAW",
-          "Humangest",
-          "Orologio Network",
-          "Cooperativa Skills",
-          "Relais Villa Belvedere",
-          "Energy Line",
-          "Nencini Sport"
-        ],
-        "queriesRun": 68,
-        "newJobs": 3,
-        "activeJobs": 78,
-        "layersCompleted": [
-          "60 fonti indipendenti",
-          "career page e aziende locali",
-          "matching semantico",
-          "geografia rigida",
-          "ricontrollo offerte esistenti",
-          "dedupe",
-          "scoring",
-          "scrittura GitHub"
-        ],
-        "secondPassSources": [
-          "Manpower",
-          "Job Camere",
-          "Randstad",
-          "Indeed",
           "Careerjet",
-          "Jobbydoo",
-          "Helplavoro",
-          "Jooble"
+          "Lavoro.it"
         ],
-        "notes": "Scansione pomeridiana completa. Inserite 3 nuove offerte verificate e ricontrollate tutte le 77 offerte precedentemente attive. Due offerte sono state disattivate dopo risposte definitive HTTP 410/404 dalle rispettive pagine sorgente. Timeout e pagine protette non sono stati trattati come prova di scadenza. Esclusi duplicati, sedi fuori geografia e annunci con sede non sufficientemente precisa. Nessuna candidatura o comunicazione inviata."
+        "notes": "Scansione mattutina completa. Inserite 2 nuove offerte verificate e ricontrollate tutte le 78 offerte precedentemente attive. Tre annunci sono stati disattivati dopo risposte definitive HTTP 410/404. Timeout e pagine protette non sono stati considerati prova di scadenza. Esclusi duplicati semantici, sedi fuori geografia e annunci con sede non sufficientemente precisa. Nessuna candidatura o comunicazione inviata."
       }
     }
   }
