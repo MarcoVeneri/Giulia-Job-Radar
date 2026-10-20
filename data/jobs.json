@@ -1,7 +1,136 @@
 {
-  "generatedAt": "2026-10-19T15:13:55+02:00",
+  "generatedAt": "2026-10-20T08:03:25+02:00",
   "source": "Ricerca quotidiana Giulia",
   "jobs": [
+    {
+      "id": "profumerie-jolie-arezzo-sales-assistant-8ca29ed3824ac28f",
+      "date": "2026-10-20",
+      "company": "Profumerie Jolie di Dini Laura",
+      "title": "Sales Assistant / Commesso/a profumeria",
+      "location": "Arezzo (AR)",
+      "workMode": "In presenza",
+      "contract": "Tempo pieno; tipologia non dichiarata",
+      "salary": "Da 1.400 € al mese",
+      "category": "Vendita",
+      "score": 8.9,
+      "source": "Indeed / Profumerie Jolie",
+      "url": "https://it.indeed.com/viewjob?jk=8ca29ed3824ac28f",
+      "summary": "Vendita assistita e consulenza personalizzata nel settore profumeria e beauty; richiesta esperienza specifica nella vendita in profumeria.",
+      "checks": [
+        "Pagina specifica verificata il 20 ottobre 2026",
+        "Sede Arezzo città compatibile",
+        "Retribuzione e tempo pieno dichiarati",
+        "Richiesti 3 anni di esperienza in profumeria",
+        "Annuncio attivo"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-20T08:03:25+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "hm-arezzo-sales-advisor-744000155310788",
+      "date": "2026-10-13",
+      "company": "H&M",
+      "title": "Sales Advisor part-time",
+      "location": "Arezzo (AR)",
+      "workMode": "In presenza",
+      "contract": "Tempo determinato; part-time 18 o 20 ore; 5° livello CCNL Commercio",
+      "salary": "RAL equivalente full-time 23.212,14 €, riproporzionata",
+      "category": "Vendita",
+      "score": 9.6,
+      "source": "H&M Careers / SmartRecruiters",
+      "url": "https://jobs.smartrecruiters.com/HMGroup/744000155310788-sales-advisor-part-time-arezzo",
+      "summary": "Accoglienza e assistenza clienti, riassortimento area vendita e magazzino, supporto alle attività di apertura e chiusura del negozio H&M di Arezzo.",
+      "checks": [
+        "Career page specifica verificata il 20 ottobre 2026",
+        "Sede Arezzo città compatibile",
+        "Part-time 18/20 ore, contratto e RAL dichiarati",
+        "Annuncio attivo"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-20T08:03:25+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "cigierre-smashie-firenze-crew-member-20261017",
+      "date": "2026-10-17",
+      "company": "Cigierre / Smashie",
+      "title": "Crew Member Smashie",
+      "location": "Firenze (FI)",
+      "workMode": "In presenza",
+      "contract": "Tempo determinato; part-time; 6°-5° livello CCNL Pubblici Esercizi",
+      "salary": "RAL 20.882–23.200 € riproporzionata",
+      "category": "Ristorazione",
+      "score": 9.4,
+      "source": "Jobijoba / Cigierre",
+      "url": "https://www.jobijoba.it/annunci-di-lavoro/13/51f27bff5fe92b541e1e212bc83f3a5f",
+      "summary": "Preparazione prodotti, gestione ordini, cassa, take-away, delivery e pulizia per la nuova apertura Smashie a Firenze.",
+      "checks": [
+        "Pagina specifica verificata il 20 ottobre 2026",
+        "Pubblicazione del 17 ottobre 2026",
+        "Sede Firenze città compatibile",
+        "Contratto, settore e RAL dichiarati",
+        "Annuncio attivo"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-20T08:03:25+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "cigierre-smashie-firenze-novoli-shift-manager-da5454c0",
+      "date": "2026-10-13",
+      "company": "Cigierre / Smashie",
+      "title": "Shift Manager Smashie",
+      "location": "Firenze, Novoli (FI)",
+      "workMode": "In presenza",
+      "contract": "Tempo determinato; part-time 30h; 4°-3° livello CCNL Pubblici Esercizi",
+      "salary": "RAL 23.698–28.000 € riproporzionata + variabile",
+      "category": "Ristorazione",
+      "score": 9,
+      "source": "Indeed / Cigierre",
+      "url": "https://it.indeed.com/viewjob?jk=da5454c0b8779f1e",
+      "summary": "Coordinamento operativo dei turni nella nuova apertura Smashie di Firenze Novoli, con attività diretta in sala, cucina, cassa e bar.",
+      "checks": [
+        "Pagina specifica verificata il 20 ottobre 2026",
+        "Sede Firenze Novoli compatibile",
+        "Part-time 30 ore, contratto e RAL dichiarati",
+        "Ruolo distinto da Store Manager e Crew Member",
+        "Annuncio attivo"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-20T08:03:25+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "cigierre-smashie-firenze-novoli-store-manager-4477542565",
+      "date": "2026-10-12",
+      "company": "Cigierre / Smashie",
+      "title": "Store Manager Smashie",
+      "location": "Firenze, Novoli (FI)",
+      "workMode": "In presenza",
+      "contract": "Tempo determinato; full-time; 3°-2° livello CCNL Pubblici Esercizi",
+      "salary": "RAL 25.210–28.660 € + variabile",
+      "category": "Ristorazione",
+      "score": 8.8,
+      "source": "LinkedIn Jobs / Cigierre",
+      "url": "https://it.linkedin.com/jobs/view/store-manager-smashie-firenze-novoli-at-cigierre-compagnia-generale-ristorazione-spa-4477542565",
+      "summary": "Gestione completa della nuova apertura Smashie di Firenze Novoli, coordinamento del team, KPI, ordini, scorte e operatività di sala e cucina.",
+      "checks": [
+        "Pagina specifica verificata il 20 ottobre 2026",
+        "Sede Firenze Novoli compatibile",
+        "Contratto, orario e RAL dichiarati",
+        "Ruolo distinto dalle posizioni Shift Manager e Crew Member",
+        "Annuncio attivo"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-20T08:03:25+02:00",
+      "firstSeenRun": "08:00"
+    },
     {
       "id": "goldenpoint-firenze-calzaiuoli-shop-assistant-20h-20261001",
       "date": "2026-10-01",
@@ -834,22 +963,23 @@
     },
     {
       "id": "linkedin-metro-firenze-4448432634",
-      "date": "2026-10-02",
+      "date": "2026-10-09",
       "company": "METRO Italia",
       "title": "Addetta/Addetto vendite",
       "location": "Firenze (FI)",
       "workMode": "In presenza",
-      "contract": "Tempo determinato, part-time 24 ore settimanali; CCNL DMO livello 5",
-      "salary": "13.927,28–14.022,70 € annui lordi",
+      "contract": "Tempo determinato; part-time 24h; 5° livello CCNL Distribuzione Moderna Organizzata",
+      "salary": "RAL 13.927,28–14.022,70 € per 24 ore settimanali",
       "category": "Vendita",
       "score": 9.4,
-      "source": "LinkedIn Jobs / METRO Italia",
-      "url": "https://it.linkedin.com/jobs/view/addetta-addetto-vendite-at-metro-italia-4448432634",
-      "summary": "Vendita e assistenza professionale alla clientela nel punto vendita METRO di Firenze; passaggio automatico al livello 4 dopo 18 mesi indicato nell'annuncio.",
+      "source": "METRO Careers",
+      "url": "https://careers.metro.it/job/addetta-addetto-vendite-in-via-giuseppe-saverio-mercadante-2-firenze-jid-33694",
+      "summary": "Servizio al cliente Ho.Re.Ca., rifornimento scaffali e preparazione dei reparti nel punto vendita METRO Firenze Le Cascine.",
       "checks": [
         "Pagina specifica verificata il 2 ottobre 2026",
         "Orario, inquadramento e retribuzione dichiarati",
-        "Sede Firenze compatibile"
+        "Sede Firenze compatibile",
+        "Ripubblicazione aziendale specifica verificata il 20 ottobre 2026; prima rilevazione conservata"
       ],
       "remote": false,
       "active": true,
@@ -3370,11 +3500,11 @@
     }
   ],
   "audit": {
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "runs": {
-      "15:00": {
-        "scheduledFor": "2026-10-19T15:00:00+02:00",
-        "completedAt": "2026-10-19T15:13:55+02:00",
+      "08:00": {
+        "scheduledFor": "2026-10-20T08:00:00+02:00",
+        "completedAt": "2026-10-20T08:03:25+02:00",
         "status": "complete",
         "requiredSourcesTotal": 60,
         "requiredSourcesChecked": 60,
@@ -3441,19 +3571,26 @@
           "Trovolavoro"
         ],
         "sourcesUnavailable": [
-          "Alcune pagine dinamiche o protette hanno restituito HTTP 403, timeout, HTTP 404 o contenuti parziali",
+          "Alcune pagine dinamiche o protette hanno restituito HTTP 403, HTTP 404, rate limit o contenuti parziali",
           "Le pagine non accessibili non sono state considerate chiuse senza una risposta definitiva",
           "Esclusi risultati con sede provinciale generica, località fuori perimetro o pagina specifica non verificabile"
         ],
         "extraSourcesChecked": [
-          "Career page PiùMe",
-          "Jobijoba / Goldenpoint",
+          "Cigierre Careers",
           "LinkedIn Jobs",
           "Indeed",
-          "Career page e aggregatori locali",
-          "Rilettura diretta delle 110 offerte attive"
+          "H&M Careers / SmartRecruiters",
+          "METRO Careers",
+          "Jobijoba",
+          "Lavoro.it",
+          "Career page e aziende locali",
+          "Rilettura diretta delle 111 offerte attive"
         ],
         "companiesChecked": [
+          "Cigierre / Smashie",
+          "H&M",
+          "Profumerie Jolie",
+          "METRO Italia",
           "PiùMe / General S.r.l.",
           "Goldenpoint",
           "Openjobmetis",
@@ -3462,22 +3599,18 @@
           "Max Mara Fashion Group",
           "Giffi Noleggi",
           "Eurospin",
-          "NKD Group",
-          "Primadonna",
-          "Manpower",
-          "Adecco",
+          "OVS",
+          "MediaWorld",
+          "Nencini Sport",
           "Randstad",
+          "Adecco",
           "Gi Group",
           "Synergie",
-          "Lavoropiù",
-          "Etjca",
-          "OVS",
-          "Action",
-          "La Piadineria"
+          "Lavoropiù"
         ],
-        "queriesRun": 68,
-        "newJobs": 2,
-        "activeJobs": 111,
+        "queriesRun": 76,
+        "newJobs": 5,
+        "activeJobs": 116,
         "layersCompleted": [
           "60 fonti indipendenti",
           "career page e aziende locali",
@@ -3489,18 +3622,18 @@
           "scrittura GitHub"
         ],
         "secondPassSources": [
-          "PiùMe Careers",
-          "Goldenpoint / Jobijoba",
+          "Cigierre Careers",
           "LinkedIn Jobs",
           "Indeed",
-          "Openjobmetis",
+          "H&M Careers",
+          "METRO Careers",
+          "Jobijoba",
           "Randstad",
-          "Gi Group",
-          "Manpower",
-          "ARTI Toscana",
+          "Openjobmetis",
+          "Lavoro.it",
           "Career page locali"
         ],
-        "notes": "Scansione pomeridiana completa su 60 fonti indipendenti, con secondo passaggio su career page e aziende locali. Inserite 2 offerte verificate, già individuate nel controllo mattutino e confermate nel run corrente: PiùMe a Firenze Novoli e Goldenpoint in Via de' Calzaiuoli. Ricontrollate tutte le 110 offerte attive precedenti; disattivato l'annuncio Openjobmetis ID 136013 perché la pagina specifica restituisce HTTP 404. Le pagine non accessibili o dinamiche non sono state considerate chiuse senza evidenza definitiva. Esclusi duplicati semantici, ruoli fuori profilo, sedi fuori geografia e risultati non verificabili. Nessuna candidatura o comunicazione inviata."
+        "notes": "Scansione mattutina completa su 60 fonti indipendenti, con secondo passaggio su career page e aziende locali. Inserite 5 offerte verificate: Store Manager, Shift Manager e Crew Member per la nuova apertura Smashie a Firenze; Sales Advisor H&M e Sales Assistant Profumerie Jolie ad Arezzo. Aggiornata la pubblicazione METRO Firenze sul record già esistente, conservando firstSeenAt e firstSeenRun. Ricontrollate tutte le 111 offerte precedentemente attive: nessuna chiusura aggiuntiva con evidenza definitiva. Esclusi duplicati semantici, ruoli fuori profilo, sedi fuori geografia e risultati non verificabili. Nessuna candidatura o comunicazione inviata."
       }
     }
   }
