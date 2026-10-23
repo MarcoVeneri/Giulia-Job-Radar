@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T08:07:05+02:00",
+  "generatedAt": "2026-10-23T14:59:52+02:00",
   "source": "Ricerca quotidiana Giulia",
   "jobs": [
     {
@@ -838,10 +838,11 @@
       "checks": [
         "Sede nel perimetro",
         "Esperienza di Giulia in gastronomia direttamente coerente",
-        "Pagina ufficiale Ali Lavoro verificata il 03/10/2026"
+        "Pagina ufficiale Ali Lavoro verificata il 03/10/2026",
+        "Pagina non più disponibile (HTTP 410) verificata il 23 ottobre 2026"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-01T15:08:25+02:00",
       "firstSeenRun": "15:00"
     },
@@ -1742,10 +1743,11 @@
         "Offerta specifica verificata su due fonti il 04/10/2026",
         "Reggello nel perimetro",
         "Orario e monte ore dichiarati",
-        "Controllo anti-duplicato completato"
+        "Controllo anti-duplicato completato",
+        "Pagina non più disponibile (HTTP 410) verificata il 23 ottobre 2026"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-04T08:04:18+02:00",
       "firstSeenRun": "08:00"
     },
@@ -1846,10 +1848,11 @@
         "Pubblicata il 02/10/2026",
         "Arezzo città nel perimetro",
         "Esperienza ortofrutta e disponibilità dalle 05:00 richieste",
-        "Controllo anti-duplicato completato"
+        "Controllo anti-duplicato completato",
+        "Pagina non più disponibile (HTTP 410) verificata il 23 ottobre 2026"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-04T15:05:19+02:00",
       "firstSeenRun": "15:00"
     },
@@ -3009,7 +3012,7 @@
     },
     {
       "id": "gigroup-reggello-confezionamento-alimentare-1643211",
-      "date": "2026-10-10",
+      "date": "2026-10-23",
       "company": "Azienda alimentare tramite Gi Group",
       "title": "Addetti/e al confezionamento alimentare",
       "location": "Reggello (FI)",
@@ -3018,14 +3021,16 @@
       "salary": "€1.846,83 lordi/mese",
       "category": "Produzione",
       "score": 9,
-      "source": "Gi Group / Joinrs",
-      "url": "https://www.joinrs.com/en/jobs/4932212",
+      "source": "Gi Group",
+      "url": "https://www.gigroup.it/offerte-lavoro-dettaglio/reggello-firenze-addetti-e-al-confezionamento/1348617/",
       "summary": "Confezionamento alimentare, alimentazione delle macchine, supervisione del processo e controllo qualità del prodotto finito.",
       "checks": [
+        "Career page Gi Group verificata il 23 ottobre 2026",
         "Sede Reggello verificata",
-        "Riferimento Gi Group 1643211",
-        "Retribuzione e inquadramento verificati",
-        "Disponibilità richiesta su turni; esperienza produttiva preferibile ma non indispensabile"
+        "Codice riferimento corrente 1348617; due posizioni",
+        "Retribuzione di 1.846,83 € lordi/mese e CCNL Alimentari Industria livello 6 dichiarati",
+        "Disponibilità su turni; esperienza produttiva preferibile ma non indispensabile",
+        "Record deduplicato e firstSeen preservato dalla precedente pubblicazione"
       ],
       "remote": false,
       "active": true,
@@ -4056,6 +4061,134 @@
           "Rilettura delle 120 offerte attive"
         ],
         "notes": "Scansione mattutina completa su 60 fonti indipendenti e 84 query reali complessive. Inserite 3 offerte verificate: due posizioni in produzione pelletteria a Cavriglia, addetto/a vendita natalizio Pandora ad Arezzo e libraia/o Giunti al Punto ad Arezzo. Ricontrollate tutte le 120 offerte attive: disattivata l'offerta Openjobmetis 136602 per assemblaggio a Figline e Incisa Valdarno, la cui pagina restituisce HTTP 404. Esclusi duplicati semantici, ruoli fuori profilo, sedi fuori geografia e risultati non verificabili; non riattivato l'annuncio IVS Valdarno perché la nuova evidenza non forniva una pagina specifica stabile distinta dalla precedente offerta chiusa. Nessuna candidatura o comunicazione inviata."
+      },
+      "15:00": {
+        "scheduledFor": "2026-10-23T15:00:00+02:00",
+        "completedAt": "2026-10-23T14:59:52+02:00",
+        "status": "complete",
+        "requiredSourcesTotal": 60,
+        "requiredSourcesChecked": 60,
+        "sourcesChecked": [
+          "LinkedIn Jobs",
+          "Indeed",
+          "Monster",
+          "Randstad",
+          "Adecco",
+          "Manpower",
+          "Gi Group",
+          "Grafton",
+          "Hays",
+          "Michael Page",
+          "Page Personnel",
+          "Openjobmetis",
+          "Synergie",
+          "Orienta",
+          "Lavoropiù",
+          "Jobrapido",
+          "Jooble",
+          "Talent.com",
+          "Glassdoor Jobs",
+          "Careerjet",
+          "Bakeca Lavoro",
+          "Helplavoro",
+          "Experis",
+          "Umana",
+          "Ali Lavoro",
+          "During",
+          "Etjca",
+          "MAW",
+          "Humangest",
+          "ADHR Group",
+          "Staff S.p.A.",
+          "Atempo",
+          "ARTI Toscana",
+          "inPA",
+          "Adzuna",
+          "Jobbydoo",
+          "Jobijoba",
+          "SimplyHired",
+          "Subito Lavoro",
+          "CercoLavoro",
+          "CVing",
+          "Hunters Group",
+          "Wyser",
+          "IQM Selezione",
+          "High Professional",
+          "Profili & Carriere",
+          "Knet Human Resources",
+          "W Executive",
+          "Jefferson Wells",
+          "LHH",
+          "Jobtech",
+          "e-work",
+          "Iziwork",
+          "Eurointerim",
+          "QuoJobis",
+          "SAPIENS",
+          "La Risorsa Umana",
+          "CPL Taylor",
+          "Lavoro.it",
+          "Trovolavoro"
+        ],
+        "sourcesUnavailable": [
+          "Alcune pagine dinamiche o protette hanno restituito contenuti parziali",
+          "Due pagine During hanno risposto HTTP 403 e sono state conservate attive, non essendo una prova di chiusura",
+          "La pagina generale Eurospin non era accessibile allo strumento e il relativo record è stato conservato"
+        ],
+        "extraSourcesChecked": [
+          "Gi Group career page",
+          "Openjobmetis",
+          "Randstad",
+          "Adecco",
+          "Indeed",
+          "LinkedIn Jobs",
+          "AxL",
+          "Lidl Jobs",
+          "Eurospin Jobs",
+          "MediaWorld Careers",
+          "Esselunga Jobs",
+          "Rilettura diretta delle 122 offerte attive"
+        ],
+        "companiesChecked": [
+          "Gi Group",
+          "Openjobmetis",
+          "Randstad",
+          "Adecco",
+          "AxL",
+          "Bottega Verde",
+          "Lidl",
+          "Eurospin",
+          "MediaWorld",
+          "Esselunga",
+          "Ali Lavoro",
+          "During",
+          "Lavoropiù"
+        ],
+        "queriesRun": 72,
+        "newJobs": 0,
+        "activeJobs": 119,
+        "layersCompleted": [
+          "60 fonti indipendenti",
+          "career page e aziende locali",
+          "matching semantico",
+          "geografia rigida",
+          "ricontrollo offerte esistenti",
+          "dedupe",
+          "scoring",
+          "scrittura GitHub"
+        ],
+        "secondPassSources": [
+          "Gi Group",
+          "Openjobmetis",
+          "Randstad",
+          "Adecco",
+          "Indeed",
+          "LinkedIn Jobs",
+          "AxL",
+          "Career page retail locali",
+          "Rilettura delle 122 offerte attive"
+        ],
+        "notes": "Scansione pomeridiana completa su 60 fonti indipendenti e 72 query reali complessive. Nessuna nuova offerta affidabile e non duplicata inserita. Aggiornato il record Gi Group del confezionamento alimentare a Reggello con la nuova pagina ufficiale, mantenendo firstSeenAt e firstSeenRun. Ricontrollate tutte le 122 offerte attive: disattivate per HTTP 410 le offerte Ali Lavoro gastronomia a Figline e Incisa Valdarno, During pulizie supermercato a Reggello e Lavoropiù vendite ortofrutta ad Arezzo. Risposte HTTP 403 o pagine dinamiche non accessibili non sono state considerate prova di chiusura. Nessuna candidatura o comunicazione inviata."
       }
     }
   }
