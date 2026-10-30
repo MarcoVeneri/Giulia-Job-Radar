@@ -1,7 +1,61 @@
 {
-  "generatedAt": "2026-10-29T14:59:22+01:00",
+  "generatedAt": "2026-10-30T07:59:32+01:00",
   "source": "Ricerca quotidiana Giulia",
   "jobs": [
+    {
+      "id": "synergie-rignano-magazzino-352497",
+      "date": "2026-10-02",
+      "company": "Azienda cliente tramite Synergie Italia",
+      "title": "Impiegato/a di magazzino",
+      "location": "Rignano sull'Arno (FI)",
+      "workMode": "In presenza",
+      "contract": "Somministrazione 3 mesi + possibile proroga di 3 mesi · Finalizzato alla stabilizzazione · Full-time lun–ven 08:00–17:00",
+      "salary": "20.000–22.000 € lordi/anno",
+      "category": "Magazzino",
+      "score": 9,
+      "source": "Synergie Italia",
+      "url": "https://synergie.intervieweb.it/jobs/impiegatoa-di-magazzino-352497/it/",
+      "summary": "Gestione di DDT in entrata e vendita, prenotazione corrieri, supporto operativo al magazzino e inserimento dati tramite gestionale.",
+      "checks": [
+        "Pagina ufficiale Synergie annuncio 352497 verificata il 30 ottobre 2026",
+        "Sede Rignano sull'Arno",
+        "Richiesta esperienza anche breve in segreteria, magazzino o attività simili",
+        "Richiesto uso base del PC; Arca Evolution indicato come preferenziale",
+        "Contratto iniziale in somministrazione finalizzato al tempo indeterminato",
+        "Orario full-time dal lunedì al venerdì"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-30T07:59:32+01:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "toscana-lavoro-fi-299162",
+      "date": "2026-10-30",
+      "company": "HYGIEIA SERVICE SRL",
+      "title": "Cameriere/a ai piani",
+      "location": "Firenze (FI)",
+      "workMode": "In presenza",
+      "contract": "Tempo determinato 3 mesi · Part-time 20 ore · Turni e weekend",
+      "salary": "700 € indicati nell’offerta",
+      "category": "Servizi",
+      "score": 9.1,
+      "source": "Toscana Lavoro",
+      "url": "https://lavoro.regione.toscana.it/ToscanaLavoro/cittadini/offerteLavoro.xhtml?q1=FI299162",
+      "summary": "Pulizia e riordino di camere e bagni, cambio biancheria, rifornimento set di cortesia e cura del carrello di servizio in una struttura di Firenze.",
+      "checks": [
+        "Pagina ufficiale Toscana Lavoro FI-299162 verificata il 30 ottobre 2026",
+        "Scadenza dell’offerta 30 ottobre 2026",
+        "Sede Firenze città",
+        "Esperienza non richiesta; preferibile esperienza pregressa",
+        "Richiesta licenza media e conoscenza dell’italiano",
+        "Disponibilità richiesta per turni, festivi e weekend"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-30T07:59:32+01:00",
+      "firstSeenRun": "08:00"
+    },
     {
       "id": "gigroup-firenze-commis-cucina-1389349",
       "date": "2026-10-21",
@@ -2783,10 +2837,11 @@
         "Sede esatta a Cavriglia",
         "Possibile rinnovo fino a novembre 2026 o gennaio 2027",
         "Alloggio per il personale disponibile",
-        "Esperienza preferita"
+        "Esperienza preferita",
+        "Pagina sorgente verificata il 30 ottobre 2026: HTTP 410 Gone, inserzione rimossa"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-07T08:06:30+02:00",
       "firstSeenRun": "08:00"
     },
@@ -4817,11 +4872,11 @@
     }
   ],
   "audit": {
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "runs": {
       "08:00": {
-        "scheduledFor": "2026-10-29T08:00:00+01:00",
-        "completedAt": "2026-10-29T08:03:00+01:00",
+        "scheduledFor": "2026-10-30T08:00:00+01:00",
+        "completedAt": "2026-10-30T07:59:32+01:00",
         "status": "complete",
         "requiredSourcesTotal": 60,
         "requiredSourcesChecked": 60,
@@ -4892,147 +4947,26 @@
           "Le pagine non accessibili direttamente sono state conservate attive in assenza di prova certa di chiusura"
         ],
         "extraSourcesChecked": [
-          "Toscana Lavoro / Toscana Media News",
-          "Manpower career page",
-          "Life in / HelpLavoro",
-          "Etjca career page",
-          "Sodexo Italia",
-          "Synergie career page",
-          "Rilettura diretta delle 132 offerte attive"
+          "Toscana Lavoro",
+          "Synergie Italia career page",
+          "Jobsora e Jobijoba come riscontri secondari",
+          "Rilettura diretta delle 137 offerte attive"
         ],
         "companiesChecked": [
-          "Toscana Lavoro",
-          "Manpower",
-          "Life in",
-          "Etjca",
-          "Sodexo Italia",
-          "Synergie",
-          "Randstad",
-          "Ali Lavoro",
+          "HYGIEIA SERVICE SRL",
+          "Synergie Italia",
+          "Unicomm / Famila",
           "Gi Group",
-          "Openjobmetis"
-        ],
-        "queriesRun": 87,
-        "newJobs": 4,
-        "activeJobs": 135,
-        "layersCompleted": [
-          "60 fonti indipendenti",
-          "career page e aziende locali",
-          "matching semantico",
-          "geografia rigida",
-          "ricontrollo offerte esistenti",
-          "dedupe",
-          "scoring",
-          "scrittura GitHub"
-        ],
-        "secondPassSources": [
-          "Toscana Lavoro",
-          "Manpower",
-          "Life in / HelpLavoro",
-          "Etjca",
-          "Sodexo Italia",
-          "Synergie",
-          "Randstad",
-          "Rilettura delle 132 offerte attive"
-        ],
-        "notes": "Scansione mattutina completa su 60 fonti indipendenti e 87 query reali. Inserite quattro offerte verificate e non duplicate: apprendista operatore/trice di produzione e montaggio ad Arezzo, magazziniere/a nel settore edile a Reggello, operatore/trice magazzino materie prime nel Valdarno e addetto/a mensa aziendale a Montevarchi. Ricontrollate direttamente tutte le 132 offerte attive e disattivata l'inserzione Randstad per operaio alimentare generico a Montevarchi, la cui pagina ufficiale restituisce HTTP 410 Gone. Aggiornato alla pagina ufficiale Etjca il collegamento dell'offerta addetti/e al magazzino di Arezzo, preservando i dati firstSeen. Escluse opportunità duplicate, fuori geografia, fuori profilo o prive di dati sufficientemente verificabili; conservate attive le pagine non accessibili in assenza di prova certa. firstSeenAt e firstSeenRun delle offerte già presenti sono rimasti invariati. Nessuna candidatura o comunicazione inviata."
-      },
-      "15:00": {
-        "scheduledFor": "2026-10-29T15:00:00+01:00",
-        "completedAt": "2026-10-29T14:59:22+01:00",
-        "status": "complete",
-        "requiredSourcesTotal": 60,
-        "requiredSourcesChecked": 60,
-        "sourcesChecked": [
-          "LinkedIn Jobs",
-          "Indeed",
-          "Monster",
           "Randstad",
           "Adecco",
-          "Manpower",
-          "Gi Group",
-          "Grafton",
-          "Hays",
-          "Michael Page",
-          "Page Personnel",
           "Openjobmetis",
-          "Synergie",
-          "Orienta",
-          "Lavoropiù",
-          "Jobrapido",
-          "Jooble",
-          "Talent.com",
-          "Glassdoor Jobs",
-          "Careerjet",
-          "Bakeca Lavoro",
-          "Helplavoro",
-          "Experis",
-          "Umana",
-          "Ali Lavoro",
-          "During",
-          "Etjca",
-          "MAW",
-          "Humangest",
-          "ADHR Group",
-          "Staff S.p.A.",
-          "Atempo",
-          "ARTI Toscana",
-          "inPA",
-          "Adzuna",
-          "Jobbydoo",
-          "Jobijoba",
-          "SimplyHired",
-          "Subito Lavoro",
-          "CercoLavoro",
-          "CVing",
-          "Hunters Group",
-          "Wyser",
-          "IQM Selezione",
-          "High Professional",
-          "Profili & Carriere",
-          "Knet Human Resources",
-          "W Executive",
-          "Jefferson Wells",
-          "LHH",
-          "Jobtech",
-          "e-work",
-          "Iziwork",
-          "Eurointerim",
-          "QuoJobis",
-          "SAPIENS",
-          "La Risorsa Umana",
-          "CPL Taylor",
-          "Lavoro.it",
-          "Trovolavoro"
-        ],
-        "sourcesUnavailable": [
-          "Alcune pagine dinamiche o protette hanno restituito contenuti parziali o non accessibili",
-          "Le pagine non accessibili direttamente sono state conservate attive in assenza di prova certa di chiusura"
-        ],
-        "extraSourcesChecked": [
-          "Cisalfa Sport / Trovolavoro",
-          "Gi Group career page",
-          "Indeed",
-          "SimplyHired",
-          "IVS Italia",
-          "Toscana Lavoro",
-          "Rilettura diretta delle 135 offerte attive"
-        ],
-        "companiesChecked": [
-          "Cisalfa Sport",
-          "Gi Group",
-          "LS Lavoro e Selezione",
-          "Marconi Srl",
-          "IVS Italia",
-          "Randstad",
-          "Etjca",
-          "Toscana Lavoro",
           "Manpower",
-          "Synergie"
+          "Eurospin",
+          "Chef Express"
         ],
-        "queriesRun": 84,
+        "queriesRun": 78,
         "newJobs": 2,
-        "activeJobs": 137,
+        "activeJobs": 138,
         "layersCompleted": [
           "60 fonti indipendenti",
           "career page e aziende locali",
@@ -5044,15 +4978,13 @@
           "scrittura GitHub"
         ],
         "secondPassSources": [
-          "Cisalfa Sport / Trovolavoro",
-          "Gi Group",
-          "Indeed",
-          "SimplyHired",
-          "IVS Italia",
           "Toscana Lavoro",
-          "Rilettura delle 135 offerte attive"
+          "Synergie Italia",
+          "Jobsora",
+          "Jobijoba",
+          "Rilettura delle 137 offerte attive"
         ],
-        "notes": "Scansione pomeridiana completa su 60 fonti indipendenti e 84 query reali. Inserite due offerte verificate e non duplicate: addetto/a vendita part-time Cisalfa Sport ad Arezzo e commis di cucina presso un lounge bar nel centro di Firenze tramite Gi Group. Ricontrollate direttamente tutte le 135 offerte attive senza rilevare nuove prove certe di chiusura. Escluse opportunità duplicate, fuori geografia, fuori profilo, con località ambigua o prive di dati sufficientemente verificabili; conservate attive le pagine non accessibili in assenza di prova certa. firstSeenAt e firstSeenRun delle offerte già presenti sono rimasti invariati. Nessuna candidatura o comunicazione inviata."
+        "notes": "Scansione mattutina completa su 60 fonti indipendenti e 78 query reali. Inserite due offerte verificate e non duplicate: cameriere/a ai piani a Firenze presso HYGIEIA SERVICE SRL e impiegato/a di magazzino a Rignano sull’Arno tramite Synergie. Ricontrollate direttamente tutte le 137 offerte attive; disattivata l’inserzione Synergie/Subito per cameriere/a ai piani in resort a Cavriglia perché la pagina sorgente restituisce HTTP 410 Gone. Esclusa l’offerta Toscana Lavoro FI-296320 perché scaduta il 10 ottobre 2026; escluse inoltre opportunità duplicate, fuori geografia, fuori profilo o prive di dati sufficientemente verificabili. Le pagine non accessibili sono rimaste attive in assenza di prova certa di chiusura. firstSeenAt e firstSeenRun delle offerte già presenti sono rimasti invariati. Nessuna candidatura o comunicazione inviata."
       }
     }
   }
