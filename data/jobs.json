@@ -1,7 +1,88 @@
 {
-  "generatedAt": "2026-10-30T15:05:02+01:00",
+  "generatedAt": "2026-10-31T07:56:06+01:00",
   "source": "Ricerca quotidiana Giulia",
   "jobs": [
+    {
+      "id": "openjobmetis-figline-stand-fiera-140708",
+      "date": "2026-10-30",
+      "company": "Stand enogastronomico tramite Openjobmetis",
+      "title": "Addetto/a stand – evento fieristico",
+      "location": "Figline e Incisa Valdarno (FI)",
+      "workMode": "In presenza",
+      "contract": "Somministrazione a tempo determinato · Full-time · 5–8 novembre 2026",
+      "salary": "8–9 € lordi/ora",
+      "category": "Ristorazione",
+      "score": 8.8,
+      "source": "Openjobmetis",
+      "url": "https://investitori.openjobmetis.it/it/candidati/offerte-di-lavoro/addettoaddetta-stand-evento-fiera-140708",
+      "summary": "Allestimento dello stand, preparazione e vendita di panini, bibite e prodotti enogastronomici, gestione cassa e servizio alla clientela.",
+      "checks": [
+        "Pagina ufficiale Openjobmetis offerta 140708 verificata il 31 ottobre 2026",
+        "Sede Figline e Incisa Valdarno",
+        "Impegno richiesto per tutte le quattro giornate dal 5 all’8 novembre",
+        "Esperienza specifica non indicata come obbligatoria",
+        "Attestato HACCP indicato come preferenziale",
+        "CCNL Turismo Pubblici Esercizi"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-31T07:56:06+01:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "synergie-bucine-pantografo-junior-6978290",
+      "date": "2026-10-26",
+      "company": "Azienda arredamento di lusso tramite Synergie Italia",
+      "title": "Addetto/a al pantografo junior",
+      "location": "Bucine (AR)",
+      "workMode": "In presenza",
+      "contract": "Contratto e inquadramento commisurati all’esperienza · Full-time lun–ven",
+      "salary": "20.000–22.000 € lordi/anno",
+      "category": "Produzione",
+      "score": 9.2,
+      "source": "Synergie Italia / HelpLavoro",
+      "url": "https://admin.helplavoro.it/offerta-di-lavoro-a-bucine-cercasi-addetto-a-al-pantografo-junior/6978290.html",
+      "summary": "Lavorazione di pannelli e componenti in legno con pantografo, controllo qualità dei pezzi e supporto alle fasi produttive per arredamento di lusso.",
+      "checks": [
+        "Offerta HelpLavoro/Synergie 6978290 verificata il 31 ottobre 2026",
+        "Pubblicata il 26 ottobre e con scadenza 24 novembre 2026",
+        "Sede Bucine",
+        "Valutati anche candidati junior senza esperienza",
+        "Previsti affiancamento iniziale e possibilità di crescita",
+        "Preferibile esperienza minima su macchinari per il legno o montaggio mobili"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-31T07:56:06+01:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "lavoropiu-reggello-runner-evento-1449762",
+      "date": "2026-10-29",
+      "company": "Azienda settore moda tramite Lavoropiù",
+      "title": "Runner evento – supporto vendita e magazzino",
+      "location": "Reggello (FI)",
+      "workMode": "In presenza",
+      "contract": "Somministrazione a tempo determinato · Full-time · Evento 24 novembre–17 dicembre",
+      "salary": "Fino a 25.000 € lordi/anno",
+      "category": "Vendita",
+      "score": 8.7,
+      "source": "Lavoropiù / Trovolavoro",
+      "url": "https://offerte.trovolavoro.com/it/careers/jobad/1449762-runner-reggello",
+      "summary": "Allestimento e sistemazione merce, supporto alle vendite e operazioni di magazzino durante un evento nel territorio di Reggello.",
+      "checks": [
+        "Offerta Lavoropiù/Trovolavoro 1449762 verificata il 31 ottobre 2026",
+        "Sede Reggello",
+        "Periodo dell’evento dal 24 novembre al 17 dicembre",
+        "Richiesta esperienza minima e disponibilità immediata",
+        "Orario full-time 10:00–19:00 dal lunedì alla domenica con due riposi",
+        "Contratto temporaneo in somministrazione"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-31T07:56:06+01:00",
+      "firstSeenRun": "08:00"
+    },
     {
       "id": "openjobmetis-rignano-saldatura-punti-140158",
       "date": "2026-10-27",
@@ -4955,11 +5036,11 @@
     }
   ],
   "audit": {
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "runs": {
       "08:00": {
-        "scheduledFor": "2026-10-30T08:00:00+01:00",
-        "completedAt": "2026-10-30T07:59:32+01:00",
+        "scheduledFor": "2026-10-31T08:00:00+01:00",
+        "completedAt": "2026-10-31T07:56:06+01:00",
         "status": "complete",
         "requiredSourcesTotal": 60,
         "requiredSourcesChecked": 60,
@@ -5030,139 +5111,27 @@
           "Le pagine non accessibili direttamente sono state conservate attive in assenza di prova certa di chiusura"
         ],
         "extraSourcesChecked": [
-          "Toscana Lavoro",
-          "Synergie Italia career page",
-          "Jobsora e Jobijoba come riscontri secondari",
-          "Rilettura diretta delle 137 offerte attive"
-        ],
-        "companiesChecked": [
-          "HYGIEIA SERVICE SRL",
-          "Synergie Italia",
-          "Unicomm / Famila",
-          "Gi Group",
-          "Randstad",
-          "Adecco",
-          "Openjobmetis",
-          "Manpower",
-          "Eurospin",
-          "Chef Express"
-        ],
-        "queriesRun": 78,
-        "newJobs": 2,
-        "activeJobs": 138,
-        "layersCompleted": [
-          "60 fonti indipendenti",
-          "career page e aziende locali",
-          "matching semantico",
-          "geografia rigida",
-          "ricontrollo offerte esistenti",
-          "dedupe",
-          "scoring",
-          "scrittura GitHub"
-        ],
-        "secondPassSources": [
-          "Toscana Lavoro",
-          "Synergie Italia",
-          "Jobsora",
-          "Jobijoba",
-          "Rilettura delle 137 offerte attive"
-        ],
-        "notes": "Scansione mattutina completa su 60 fonti indipendenti e 78 query reali. Inserite due offerte verificate e non duplicate: cameriere/a ai piani a Firenze presso HYGIEIA SERVICE SRL e impiegato/a di magazzino a Rignano sull’Arno tramite Synergie. Ricontrollate direttamente tutte le 137 offerte attive; disattivata l’inserzione Synergie/Subito per cameriere/a ai piani in resort a Cavriglia perché la pagina sorgente restituisce HTTP 410 Gone. Esclusa l’offerta Toscana Lavoro FI-296320 perché scaduta il 10 ottobre 2026; escluse inoltre opportunità duplicate, fuori geografia, fuori profilo o prive di dati sufficientemente verificabili. Le pagine non accessibili sono rimaste attive in assenza di prova certa di chiusura. firstSeenAt e firstSeenRun delle offerte già presenti sono rimasti invariati. Nessuna candidatura o comunicazione inviata."
-      },
-      "15:00": {
-        "scheduledFor": "2026-10-30T15:00:00+01:00",
-        "completedAt": "2026-10-30T15:05:02+01:00",
-        "status": "complete",
-        "requiredSourcesTotal": 60,
-        "requiredSourcesChecked": 60,
-        "sourcesChecked": [
-          "LinkedIn Jobs",
-          "Indeed",
-          "Monster",
-          "Randstad",
-          "Adecco",
-          "Manpower",
-          "Gi Group",
-          "Grafton",
-          "Hays",
-          "Michael Page",
-          "Page Personnel",
-          "Openjobmetis",
-          "Synergie",
-          "Orienta",
-          "Lavoropiù",
-          "Jobrapido",
-          "Jooble",
-          "Talent.com",
-          "Glassdoor Jobs",
-          "Careerjet",
-          "Bakeca Lavoro",
-          "Helplavoro",
-          "Experis",
-          "Umana",
-          "Ali Lavoro",
-          "During",
-          "Etjca",
-          "MAW",
-          "Humangest",
-          "ADHR Group",
-          "Staff S.p.A.",
-          "Atempo",
-          "ARTI Toscana",
-          "inPA",
-          "Adzuna",
-          "Jobbydoo",
-          "Jobijoba",
-          "SimplyHired",
-          "Subito Lavoro",
-          "CercoLavoro",
-          "CVing",
-          "Hunters Group",
-          "Wyser",
-          "IQM Selezione",
-          "High Professional",
-          "Profili & Carriere",
-          "Knet Human Resources",
-          "W Executive",
-          "Jefferson Wells",
-          "LHH",
-          "Jobtech",
-          "e-work",
-          "Iziwork",
-          "Eurointerim",
-          "QuoJobis",
-          "SAPIENS",
-          "La Risorsa Umana",
-          "CPL Taylor",
-          "Lavoro.it",
-          "Trovolavoro"
-        ],
-        "sourcesUnavailable": [
-          "Due gruppi di ricerca hanno restituito inizialmente HTTP 503 e sono stati recuperati con retry riuscito",
-          "Alcune pagine dinamiche o protette hanno restituito contenuti parziali o non accessibili",
-          "Le pagine non accessibili direttamente sono state conservate attive in assenza di prova certa di chiusura"
-        ],
-        "extraSourcesChecked": [
-          "Toscana Lavoro",
+          "Lavoropiù / Trovolavoro",
+          "Synergie Italia / HelpLavoro",
           "Openjobmetis career page",
-          "Jobijoba come riscontro secondario",
-          "Rilettura diretta delle 138 offerte attive"
+          "Toscana Lavoro",
+          "Rilettura diretta delle 140 offerte attive"
         ],
         "companiesChecked": [
+          "Lavoropiù",
+          "Synergie Italia",
           "Openjobmetis",
           "Toscana Lavoro",
-          "Randstad",
-          "Synergie",
           "Gi Group",
-          "Manpower",
+          "Randstad",
           "Adecco",
-          "Unicomm / Famila",
+          "Manpower",
           "Eurospin",
-          "Chef Express"
+          "Unicomm / Famila"
         ],
-        "queriesRun": 88,
+        "queriesRun": 80,
         "newJobs": 3,
-        "activeJobs": 140,
+        "activeJobs": 143,
         "layersCompleted": [
           "60 fonti indipendenti",
           "career page e aziende locali",
@@ -5174,12 +5143,13 @@
           "scrittura GitHub"
         ],
         "secondPassSources": [
-          "Toscana Lavoro",
+          "Lavoropiù / Trovolavoro",
+          "Synergie / HelpLavoro",
           "Openjobmetis",
-          "Jobijoba",
-          "Rilettura delle 138 offerte attive"
+          "Toscana Lavoro",
+          "Rilettura delle 140 offerte attive"
         ],
-        "notes": "Scansione pomeridiana completa su 60 fonti indipendenti e 88 query reali, inclusi i retry riusciti dopo due risposte HTTP 503. Inserite tre offerte verificate e non duplicate: Demi Chef de Partie in struttura alberghiera 5 stelle a Firenze, impiegato/a commerciale e logistica a Rignano sull’Arno e addetto/a alla saldatura a punti a Rignano sull’Arno. Ricontrollate direttamente tutte le 138 offerte attive; disattivata l’offerta Randstad per cuoco/a ad Arezzo perché la pagina ufficiale restituisce HTTP 410 Gone. Escluse opportunità duplicate, fuori geografia, fuori profilo, con località ambigua o prive di dati sufficientemente verificabili. Le pagine non accessibili sono rimaste attive in assenza di prova certa di chiusura. firstSeenAt e firstSeenRun delle offerte già presenti sono rimasti invariati. Nessuna candidatura o comunicazione inviata."
+        "notes": "Scansione mattutina completa su 60 fonti indipendenti e 80 query reali. Inserite tre offerte verificate e non duplicate: runner per evento con supporto vendita e magazzino a Reggello, addetto/a al pantografo junior a Bucine e addetto/a stand per evento fieristico a Figline e Incisa Valdarno. Ricontrollate direttamente tutte le 140 offerte attive senza rilevare nuove prove certe di chiusura. Escluse opportunità duplicate, scadute, fuori geografia, fuori profilo, con località ambigua o prive di dati sufficientemente verificabili. Le pagine non accessibili sono rimaste attive in assenza di prova certa di chiusura. firstSeenAt e firstSeenRun delle offerte già presenti sono rimasti invariati. Nessuna candidatura o comunicazione inviata."
       }
     }
   }
