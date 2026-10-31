@@ -1,7 +1,115 @@
 {
-  "generatedAt": "2026-10-31T07:56:06+01:00",
+  "generatedAt": "2026-10-31T14:58:36+01:00",
   "source": "Ricerca quotidiana Giulia",
   "jobs": [
+    {
+      "id": "indeed-arezzo-caseificio-matteassi-natale-9808f7af",
+      "date": "2026-10-31",
+      "company": "Caseificio Matteassi / Delizie della Valdichiana",
+      "title": "Commesso/a addetto/a alle vendite – mercatino di Natale",
+      "location": "Arezzo (AR)",
+      "workMode": "In presenza",
+      "contract": "Lavoro a chiamata · 14 novembre–20 dicembre 2026 · 2 posizioni",
+      "salary": "Fino a 100 € al giorno",
+      "category": "Vendita",
+      "score": 8.9,
+      "source": "Indeed",
+      "url": "https://it.indeed.com/viewjob?jk=9808f7af131871aa",
+      "summary": "Vendita al banco di salumi e formaggi nel mercatino di Natale di Arezzo, con assistenza alla clientela e gestione operativa dello stand.",
+      "checks": [
+        "Annuncio Indeed verificato il 31 ottobre 2026",
+        "Sede dichiarata: Arezzo città",
+        "Periodo dal 14 novembre al 20 dicembre, inclusi giovedì, venerdì e fine settimana",
+        "Due posizioni disponibili",
+        "Esperienza preferita ma candidature valutate anche senza esperienza",
+        "Italiano scritto e parlato richiesto"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-31T14:58:36+01:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "primo-montevarchi-receptionist-centro-odontoiatrico",
+      "date": "2026-10-31",
+      "company": "Centri Dentistici Primo",
+      "title": "Receptionist di centro odontoiatrico",
+      "location": "Montevarchi (AR)",
+      "workMode": "In presenza",
+      "contract": "Tempo pieno · Turni",
+      "salary": "RAL da 22.335,88 €",
+      "category": "Servizi",
+      "score": 8.8,
+      "source": "Indeed / Jooble / CVing",
+      "url": "https://it.jooble.org/jdp/6253626713615425303",
+      "summary": "Accoglienza pazienti, gestione agenda e front office, promozione dei servizi del centro e pratiche assicurative.",
+      "checks": [
+        "Offerta corrente verificata su Indeed e Jooble il 31 ottobre 2026",
+        "Sede dichiarata: Montevarchi",
+        "Tempo pieno su turni",
+        "RAL minima indicata: 22.335,88 €",
+        "Richieste competenze informatiche di base",
+        "Gradita esperienza precedente al desk"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-31T14:58:36+01:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "openjobmetis-arezzo-avanzamento-produzione-140785",
+      "date": "2026-10-30",
+      "company": "Azienda cliente tramite Openjobmetis",
+      "title": "Impiegato/a avanzamento produzione",
+      "location": "Arezzo (AR)",
+      "workMode": "In presenza",
+      "contract": "Somministrazione a tempo determinato finalizzata all'inserimento · Full-time",
+      "salary": "RAL 25.000–30.000 €",
+      "category": "Servizi",
+      "score": 7.7,
+      "source": "Openjobmetis",
+      "url": "https://investitori.openjobmetis.it/it/candidati/offerte-di-lavoro/impiegatoimpiegata-avanzamento-produzione-140785",
+      "summary": "Pianificazione e monitoraggio dell'avanzamento produttivo, aggiornamento dei dati gestionali e coordinamento con i reparti aziendali.",
+      "checks": [
+        "Pagina ufficiale Openjobmetis offerta 140785 verificata il 31 ottobre 2026",
+        "Sede dichiarata: Arezzo città",
+        "Full-time dal lunedì al venerdì",
+        "RAL indicata tra 25.000 e 30.000 €",
+        "Richiesti Excel, pacchetto Office e utilizzo di gestionali ERP",
+        "Richiesti diploma o laurea economica e circa cinque anni di esperienza"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-31T14:58:36+01:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "egida-montevarchi-guardiania-notturna-622411bff7442987",
+      "date": "2026-10-31",
+      "company": "Egida Servizi Integrati S.r.l.",
+      "title": "Portiere / addetto/a alla guardiania e sorveglianza non armata",
+      "location": "Montevarchi e Cavriglia (AR)",
+      "workMode": "In presenza",
+      "contract": "Tempo determinato 3 mesi rinnovabile · Part-time 24 ore · Turni notturni",
+      "salary": "Non indicata",
+      "category": "Servizi",
+      "score": 8.4,
+      "source": "Indeed",
+      "url": "https://it.indeed.com/cmp/Egida-Servizi-Integrati-Srl?campaignid=mobvjcmp&fromjk=622411bff7442987",
+      "summary": "Servizio di portierato, controllo accessi e sorveglianza non armata su turni prevalentemente notturni nell'area di Montevarchi e Cavriglia.",
+      "checks": [
+        "Offerta aziendale corrente verificata su Indeed il 31 ottobre 2026",
+        "Zone operative dichiarate: Montevarchi e Cavriglia",
+        "Part-time 24 ore settimanali",
+        "Contratto iniziale di tre mesi rinnovabile",
+        "Turni notturni previsti",
+        "Inglese e disponibilità di automobile indicati come indispensabili"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-31T14:58:36+01:00",
+      "firstSeenRun": "15:00"
+    },
     {
       "id": "openjobmetis-figline-stand-fiera-140708",
       "date": "2026-10-30",
@@ -22,10 +130,11 @@
         "Impegno richiesto per tutte le quattro giornate dal 5 all’8 novembre",
         "Esperienza specifica non indicata come obbligatoria",
         "Attestato HACCP indicato come preferenziale",
-        "CCNL Turismo Pubblici Esercizi"
+        "CCNL Turismo Pubblici Esercizi",
+        "Pagina ufficiale non più disponibile (404) al controllo del 31 ottobre 2026"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-31T07:56:06+01:00",
       "firstSeenRun": "08:00"
     },
@@ -130,10 +239,11 @@
         "Richiesta esperienza anche breve in segreteria commerciale, amministrazione o gestione ordini",
         "Richiesti diploma o laurea preferibilmente economico-amministrativi",
         "Richiesti Office e gestionale ARCA",
-        "Contratto iniziale finalizzato alla stabilizzazione"
+        "Contratto iniziale finalizzato alla stabilizzazione",
+        "Pagina ufficiale non più disponibile (404) al controllo del 31 ottobre 2026"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-30T15:05:02+01:00",
       "firstSeenRun": "15:00"
     },
@@ -158,10 +268,11 @@
         "Richiesta esperienza di almeno 12 mesi nel ruolo",
         "Richiesta qualifica professionale alberghiera e patente B",
         "Inglese indicato come preferenziale; pasti e lavanderia uniformi inclusi",
-        "Valore retributivo pubblicato non plausibile e pertanto segnalato come da verificare"
+        "Valore retributivo pubblicato non plausibile e pertanto segnalato come da verificare",
+        "Candidature chiuse il 30 ottobre 2026 secondo la scadenza pubblicata"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-30T15:05:02+01:00",
       "firstSeenRun": "15:00"
     },
@@ -212,10 +323,11 @@
         "Sede Firenze città",
         "Esperienza non richiesta; preferibile esperienza pregressa",
         "Richiesta licenza media e conoscenza dell’italiano",
-        "Disponibilità richiesta per turni, festivi e weekend"
+        "Disponibilità richiesta per turni, festivi e weekend",
+        "Candidature chiuse il 30 ottobre 2026 secondo la scadenza pubblicata"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-30T07:59:32+01:00",
       "firstSeenRun": "08:00"
     },
@@ -669,10 +781,11 @@
         "Offerta pubblicata il 28 settembre 2026 e in scadenza il 27 ottobre 2026",
         "Contratto full-time su turno notturno",
         "Minima esperienza gradita, con disponibilità ad apprendere",
-        "Automunito/a richiesto"
+        "Automunito/a richiesto",
+        "Candidature chiuse il 27 ottobre 2026 secondo la scadenza pubblicata"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-25T15:03:08+01:00",
       "firstSeenRun": "15:00"
     },
@@ -2899,10 +3012,11 @@
         "Sede Arezzo",
         "Pagina candidatura attiva",
         "Diploma tecnico preferenziale",
-        "Esperienza gradita ma non obbligatoria"
+        "Esperienza gradita ma non obbligatoria",
+        "Pagina ufficiale rimossa (HTTP 410) al controllo del 31 ottobre 2026"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-06T15:10:00+02:00",
       "firstSeenRun": "15:00"
     },
@@ -3256,10 +3370,11 @@
         "Sede indicata a Terranuova Bracciolini",
         "Riferimento Adecco 1519-965",
         "Orario 08:30–17:30 dal lunedì al venerdì",
-        "Mensa aziendale a 1,70 €"
+        "Mensa aziendale a 1,70 €",
+        "Pagina ufficiale rimossa (HTTP 410) al controllo del 31 ottobre 2026"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-08T08:04:00+02:00",
       "firstSeenRun": "08:00"
     },
@@ -3550,11 +3665,12 @@
       "checks": [
         "Sede San Giovanni Valdarno verificata",
         "Offerta n. 110040",
-        "Orario, contratto e retribuzione verificati"
+        "Orario, contratto e retribuzione verificati",
+        "Pagina dell'offerta rimossa (HTTP 410) al controllo del 31 ottobre 2026"
       ],
       "workMode": "In presenza",
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-09T08:02:44+02:00",
       "firstSeenRun": "08:00"
     },
@@ -3675,10 +3791,11 @@
         "Comuni ammessi elencati esplicitamente nella pagina",
         "Codice annuncio 1033478",
         "Validità dichiarata fino al 30 ottobre 2026",
-        "Contratto e range retributivo verificati"
+        "Contratto e range retributivo verificati",
+        "Offerta contrassegnata come scaduta al controllo del 31 ottobre 2026"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-09T15:08:17+02:00",
       "firstSeenRun": "15:00"
     },
@@ -4690,10 +4807,11 @@
         "Pagina Randstad verificata il 18/10/2026",
         "Pubblicata il 02/10/2026; chiusura indicata 30/10/2026",
         "Sede Figline Valdarno nel perimetro",
-        "Richiesta esperienza nella ristorazione, disponibilità ai turni e auto"
+        "Richiesta esperienza nella ristorazione, disponibilità ai turni e auto",
+        "Pagina ufficiale rimossa (HTTP 410) al controllo del 31 ottobre 2026"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-18T14:57:54+02:00",
       "firstSeenRun": "15:00"
     },
@@ -5150,6 +5268,125 @@
           "Rilettura delle 140 offerte attive"
         ],
         "notes": "Scansione mattutina completa su 60 fonti indipendenti e 80 query reali. Inserite tre offerte verificate e non duplicate: runner per evento con supporto vendita e magazzino a Reggello, addetto/a al pantografo junior a Bucine e addetto/a stand per evento fieristico a Figline e Incisa Valdarno. Ricontrollate direttamente tutte le 140 offerte attive senza rilevare nuove prove certe di chiusura. Escluse opportunità duplicate, scadute, fuori geografia, fuori profilo, con località ambigua o prive di dati sufficientemente verificabili. Le pagine non accessibili sono rimaste attive in assenza di prova certa di chiusura. firstSeenAt e firstSeenRun delle offerte già presenti sono rimasti invariati. Nessuna candidatura o comunicazione inviata."
+      },
+      "15:00": {
+        "scheduledFor": "2026-10-31T15:00:00+01:00",
+        "completedAt": "2026-10-31T14:58:36+01:00",
+        "status": "complete",
+        "requiredSourcesTotal": 60,
+        "requiredSourcesChecked": 60,
+        "sourcesChecked": [
+          "LinkedIn Jobs",
+          "Indeed",
+          "Monster",
+          "Randstad",
+          "Adecco",
+          "Manpower",
+          "Gi Group",
+          "Grafton",
+          "Hays",
+          "Michael Page",
+          "Page Personnel",
+          "Openjobmetis",
+          "Synergie",
+          "Orienta",
+          "Lavoropiù",
+          "Jobrapido",
+          "Jooble",
+          "Talent.com",
+          "Glassdoor Jobs",
+          "Careerjet",
+          "Bakeca Lavoro",
+          "Helplavoro",
+          "Experis",
+          "Umana",
+          "Ali Lavoro",
+          "During",
+          "Etjca",
+          "MAW",
+          "Humangest",
+          "ADHR Group",
+          "Staff S.p.A.",
+          "Atempo",
+          "ARTI Toscana",
+          "inPA",
+          "Adzuna",
+          "Jobbydoo",
+          "Jobijoba",
+          "SimplyHired",
+          "Subito Lavoro",
+          "CercoLavoro",
+          "CVing",
+          "Hunters Group",
+          "Wyser",
+          "IQM Selezione",
+          "High Professional",
+          "Profili & Carriere",
+          "Knet Human Resources",
+          "W Executive",
+          "Jefferson Wells",
+          "LHH",
+          "Jobtech",
+          "e-work",
+          "Iziwork",
+          "Eurointerim",
+          "QuoJobis",
+          "SAPIENS",
+          "La Risorsa Umana",
+          "CPL Taylor",
+          "Lavoro.it",
+          "Trovolavoro"
+        ],
+        "sourcesUnavailable": [
+          "Alcune pagine dinamiche, protette o indicizzate solo parzialmente hanno restituito contenuti non completi",
+          "Le offerte non accessibili direttamente sono rimaste attive quando non esisteva una prova certa di chiusura"
+        ],
+        "extraSourcesChecked": [
+          "Openjobmetis career page",
+          "Indeed aziende e annunci diretti",
+          "Jooble e CVing per riscontro incrociato",
+          "Toscana Lavoro",
+          "Career page di agenzie e aziende locali",
+          "Rilettura diretta delle 143 offerte attive"
+        ],
+        "companiesChecked": [
+          "Caseificio Matteassi / Delizie della Valdichiana",
+          "Centri Dentistici Primo",
+          "Openjobmetis",
+          "Egida Servizi Integrati",
+          "Adecco",
+          "Manpower",
+          "Randstad",
+          "Etjca",
+          "Life in",
+          "Toscana Lavoro"
+        ],
+        "queriesRun": 87,
+        "newJobs": 4,
+        "activeJobs": 137,
+        "layersCompleted": [
+          "60 fonti indipendenti",
+          "career page e aziende locali",
+          "matching semantico",
+          "geografia rigida",
+          "ricontrollo delle 143 offerte attive",
+          "dedupe",
+          "scoring",
+          "scrittura GitHub"
+        ],
+        "secondPassSources": [
+          "Indeed",
+          "Jooble",
+          "CVing",
+          "Openjobmetis",
+          "Adecco",
+          "Manpower",
+          "Randstad",
+          "Etjca",
+          "Life in",
+          "Toscana Lavoro"
+        ],
+        "notes": "Scansione pomeridiana completa su 60 fonti indipendenti e 87 query reali. Inserite quattro offerte verificate e non duplicate: addetto/a vendite al mercatino di Natale ad Arezzo, receptionist di centro odontoiatrico a Montevarchi, impiegato/a avanzamento produzione ad Arezzo e addetto/a alla guardiania nell'area di Montevarchi e Cavriglia. Ricontrollate direttamente tutte le 143 offerte attive; dieci sono state disattivate per scadenza dichiarata o rimozione certa della pagina ufficiale. Escluse opportunità duplicate, fuori geografia, fuori profilo, con località ambigua o prive di dati sufficientemente verificabili. Le pagine non accessibili sono rimaste attive in assenza di prova certa di chiusura. firstSeenAt e firstSeenRun delle offerte già presenti sono rimasti invariati. Nessuna candidatura o comunicazione inviata."
       }
     }
   }
