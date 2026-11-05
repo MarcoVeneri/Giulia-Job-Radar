@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T15:00:52+01:00",
+  "generatedAt": "2026-11-05T08:06:01+01:00",
   "source": "Ricerca quotidiana Giulia",
   "jobs": [
     {
@@ -22,10 +22,11 @@
         "Sede Montevarchi nel perimetro ammesso",
         "Contratto per i mesi di ottobre, novembre e dicembre 2026",
         "Graditi esperienza di vendita e attestato HACCP",
-        "Richiesta disponibilità nei fine settimana"
+        "Richiesta disponibilità nei fine settimana",
+        "Pagina ufficiale Adecco restituisce HTTP 410 Gone al controllo del 5 novembre 2026; offerta disattivata"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-11-04T15:00:52+01:00",
       "firstSeenRun": "15:00"
     },
@@ -777,10 +778,11 @@
         "Attestato HACCP indicato come preferenziale",
         "CCNL Turismo Pubblici Esercizi",
         "Pagina ufficiale non più disponibile (404) al controllo del 31 ottobre 2026",
-        "Pagina ufficiale nuovamente accessibile e candidatura disponibile il 2 novembre 2026"
+        "Pagina ufficiale nuovamente accessibile e candidatura disponibile il 2 novembre 2026",
+        "Pagina ufficiale Openjobmetis restituisce HTTP 404 al controllo del 5 novembre 2026; evento iniziato il 5 novembre; offerta disattivata"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-31T07:56:06+01:00",
       "firstSeenRun": "08:00"
     },
@@ -5438,10 +5440,11 @@
         "Pagina Randstad verificata il 18/10/2026",
         "Pubblicata il 17/10/2026; chiusura indicata 15/12/2026",
         "Sede Figline Valdarno nel perimetro",
-        "Richiesti diploma, esperienza minima con clienti, Office e patente B"
+        "Richiesti diploma, esperienza minima con clienti, Office e patente B",
+        "Pagina Randstad restituisce HTTP 410 Gone al controllo del 5 novembre 2026; offerta disattivata"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-18T14:57:54+02:00",
       "firstSeenRun": "15:00"
     },
@@ -6044,14 +6047,94 @@
       "active": true,
       "firstSeenAt": "2026-11-02T15:37:56+01:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "arti-figline-imballaggio-magazzino-fi302119",
+      "date": "2026-11-04",
+      "company": "Azienda settore vino e bevande tramite Centro per l'Impiego Firenze",
+      "title": "Addetto/a preparazione ordini, imballaggio e magazzino",
+      "location": "Figline e Incisa Valdarno (FI)",
+      "workMode": "In presenza",
+      "contract": "Tempo determinato stagionale · Full-time · 10 novembre–20 dicembre 2026",
+      "salary": "1.492,21 € lordi/mese",
+      "category": "Magazzino",
+      "score": 9.3,
+      "source": "Toscana Lavoro / LavoroAnnunci",
+      "url": "https://lavoro.regione.toscana.it/ToscanaLavoro/cittadini/offerteLavoro.xhtml?q1=FI302119",
+      "summary": "Preparazione di ordini di vino e bevande, imballaggio e confezionamento di cesti natalizi, con attività di magazzino.",
+      "checks": [
+        "Offerta FI-302119 pubblicata il 4 novembre 2026 e verificata il 5 novembre 2026",
+        "Sede Figline e Incisa Valdarno nel perimetro ammesso",
+        "Orario full-time dal lunedì al venerdì 8:30–12:30 e 14:30–18:30",
+        "A dicembre è richiesta disponibilità anche il sabato mattina",
+        "Retribuzione lorda mensile dichiarata 1.492,21 €",
+        "Scadenza candidature dichiarata 11 novembre 2026"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-11-05T08:06:01+01:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "ls-arezzo-controllo-magazzino-ciclo-passivo",
+      "date": "2026-10-29",
+      "company": "LS Lavoro e Selezione",
+      "title": "Addetto/a controllo magazzino e ciclo passivo",
+      "location": "Arezzo (AR)",
+      "workMode": "In presenza",
+      "contract": "Assunzione CCNL Commercio, Terziario, Distribuzione e Servizi · Full-time",
+      "salary": "25.000–28.000 € RAL",
+      "category": "Magazzino",
+      "score": 8.8,
+      "source": "LS Lavoro e Selezione / Jobijoba",
+      "url": "https://www.jobijoba.it/annunci-di-lavoro/13/e801b599bcafa8b763d122034bb0e91b",
+      "summary": "Controllo delle movimentazioni e delle giacenze, verifica di merce, DDT e fatture, registrazione acquisti e supporto a inventario e riconciliazioni.",
+      "checks": [
+        "Annuncio pubblicato il 29 ottobre 2026 e verificato il 5 novembre 2026",
+        "Sede Arezzo, Via Calamandrei, nel perimetro ammesso",
+        "Full-time dal lunedì al venerdì 9:00–13:00 e 14:30–18:30",
+        "Richiesto diploma, preferibilmente economico-amministrativo",
+        "Richiesta esperienza nel controllo amministrativo del magazzino e nel ciclo passivo",
+        "Conoscenza di Mexal e settore orafo indicate come preferenziali"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-11-05T08:06:01+01:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "arti-firenze-commesso-artigianato-fi302023",
+      "date": "2026-11-05",
+      "company": "Negozio di artigianato toscano tramite Centro per l'Impiego Firenze",
+      "title": "Commesso/a negozio di artigianato toscano",
+      "location": "Firenze (FI) – Piazza Duomo",
+      "workMode": "In presenza",
+      "contract": "Tempo determinato",
+      "salary": "Non indicata",
+      "category": "Vendita",
+      "score": 8.9,
+      "source": "Toscana Lavoro",
+      "url": "https://lavoro.regione.toscana.it/ToscanaLavoro/cittadini/offerteLavoro.xhtml?q1=FI302023",
+      "summary": "Accoglienza e assistenza alla vendita, narrazione del prodotto, esposizione e riordino, ricezione merce, magazzino, pagamenti e prima nota.",
+      "checks": [
+        "Offerta FI-302023 verificata il 5 novembre 2026 sul portale Toscana Lavoro",
+        "Sede Firenze città, zona Piazza Duomo",
+        "Contratto a tempo determinato",
+        "Attività coerenti con vendita assistita, cassa e gestione merce",
+        "Scadenza candidature dichiarata 25 novembre 2026"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-11-05T08:06:01+01:00",
+      "firstSeenRun": "08:00"
     }
   ],
   "audit": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "runs": {
       "08:00": {
-        "scheduledFor": "2026-11-04T08:00:00+01:00",
-        "completedAt": "2026-11-04T08:02:45+01:00",
+        "scheduledFor": "2026-11-05T08:00:00+01:00",
+        "completedAt": "2026-11-05T08:06:01+01:00",
         "status": "complete",
         "requiredSourcesTotal": 60,
         "requiredSourcesChecked": 60,
@@ -6118,152 +6201,28 @@
           "Trovolavoro"
         ],
         "sourcesUnavailable": [
-          "Un gruppo di quattro ricerche ha restituito un errore temporaneo ed è stato ripetuto con esito positivo",
-          "Alcune pagine dinamiche o protette hanno restituito contenuti parziali; in assenza di prova certa di chiusura gli annunci sono rimasti attivi"
+          "34 pagine dinamiche o protette non sono risultate leggibili direttamente nel ricontrollo; in assenza di prova certa di chiusura gli annunci sono rimasti attivi"
         ],
         "extraSourcesChecked": [
           "Gi Group / Grafton career page",
-          "Ali Lavoro career page",
-          "Randstad career page",
-          "Adecco career page",
-          "Openjobmetis career page",
-          "Synergie career page",
-          "ARTI Toscana",
-          "Portale Giovani Comune di Firenze",
-          "Rilettura diretta delle 158 offerte attive"
-        ],
-        "companiesChecked": [
-          "Gi Group",
-          "Grafton",
-          "Ali Lavoro",
-          "Randstad",
-          "Adecco",
-          "Openjobmetis",
-          "Synergie",
-          "e-work",
-          "Umana",
-          "Aziende locali di Firenze, Arezzo e Valdarno"
-        ],
-        "queriesRun": 76,
-        "newJobs": 4,
-        "activeJobs": 162,
-        "layersCompleted": [
-          "60 fonti indipendenti",
-          "retry delle fonti temporaneamente non disponibili",
-          "career page e aziende locali",
-          "matching semantico",
-          "geografia rigida",
-          "ricontrollo delle 158 offerte attive",
-          "dedupe",
-          "scoring",
-          "scrittura GitHub"
-        ],
-        "secondPassSources": [
-          "Gi Group",
-          "Grafton",
-          "Ali Lavoro",
-          "Randstad",
-          "Adecco",
-          "Openjobmetis",
-          "Synergie",
-          "Indeed",
-          "ARTI Toscana",
-          "Portale Giovani Comune di Firenze"
-        ],
-        "notes": "Scansione mattutina completa su 60 fonti indipendenti e 76 query reali. Il gruppo di quattro fonti che ha restituito un errore temporaneo è stato ripetuto con esito positivo. Inserite quattro offerte verificate e non duplicate: magazziniere mulettista farmaceutico e Store Food Assistant a Firenze, magazziniere autista con patente C a Firenze e addetto/a vendite GDO a Firenze. Ricontrollate direttamente tutte le 158 offerte attive; nessuna nuova chiusura certa. Escluse opportunità duplicate, fuori geografia, fuori profilo, riservate a categorie non confermate o con sede generica. Le pagine non accessibili sono rimaste attive in assenza di prova certa di chiusura. firstSeenAt e firstSeenRun delle offerte già presenti sono rimasti invariati. Nessuna candidatura o comunicazione inviata."
-      },
-      "15:00": {
-        "scheduledFor": "2026-11-04T15:00:00+01:00",
-        "completedAt": "2026-11-04T15:00:52+01:00",
-        "status": "complete",
-        "requiredSourcesTotal": 60,
-        "requiredSourcesChecked": 60,
-        "sourcesChecked": [
-          "LinkedIn Jobs",
-          "Indeed",
-          "Monster",
-          "Randstad",
-          "Adecco",
-          "Manpower",
-          "Gi Group",
-          "Grafton",
-          "Hays",
-          "Michael Page",
-          "Page Personnel",
-          "Openjobmetis",
-          "Synergie",
-          "Orienta",
-          "Lavoropiù",
-          "Jobrapido",
-          "Jooble",
-          "Talent.com",
-          "Glassdoor Jobs",
-          "Careerjet",
-          "Bakeca Lavoro",
-          "Helplavoro",
-          "Experis",
-          "Umana",
-          "Ali Lavoro",
-          "During",
-          "Etjca",
-          "MAW",
-          "Humangest",
-          "ADHR Group",
-          "Staff S.p.A.",
-          "Atempo",
-          "ARTI Toscana",
-          "inPA",
-          "Adzuna",
-          "Jobbydoo",
-          "Jobijoba",
-          "SimplyHired",
-          "Subito Lavoro",
-          "CercoLavoro",
-          "CVing",
-          "Hunters Group",
-          "Wyser",
-          "IQM Selezione",
-          "High Professional",
-          "Profili & Carriere",
-          "Knet Human Resources",
-          "W Executive",
-          "Jefferson Wells",
-          "LHH",
-          "Jobtech",
-          "e-work",
-          "Iziwork",
-          "Eurointerim",
-          "QuoJobis",
-          "SAPIENS",
-          "La Risorsa Umana",
-          "CPL Taylor",
-          "Lavoro.it",
-          "Trovolavoro"
-        ],
-        "sourcesUnavailable": [
-          "Alcune pagine dinamiche o protette hanno restituito contenuti parziali; in assenza di prova certa di chiusura gli annunci sono rimasti attivi"
-        ],
-        "extraSourcesChecked": [
-          "Gi Group / Grafton career page",
-          "Synergie career page",
           "Adecco career page",
           "Openjobmetis career page",
           "Randstad career page",
+          "Synergie career page",
           "Indeed aziende locali",
           "ARTI Toscana",
           "Portale Giovani Comune di Firenze",
+          "LavoroAnnunci",
           "Rilettura diretta delle 162 offerte attive"
         ],
         "companiesChecked": [
           "Gi Group",
           "Grafton",
-          "Synergie",
           "Adecco",
           "Openjobmetis",
           "Randstad",
-          "Umana",
-          "Ali Lavoro",
-          "e-work",
+          "Synergie",
+          "LS Lavoro e Selezione",
           "Aziende locali di Firenze, Arezzo e Valdarno"
         ],
         "queriesRun": 68,
@@ -6282,15 +6241,17 @@
         "secondPassSources": [
           "Gi Group",
           "Grafton",
-          "Synergie",
           "Adecco",
           "Openjobmetis",
           "Randstad",
+          "Synergie",
           "Indeed",
           "ARTI Toscana",
-          "Portale Giovani Comune di Firenze"
+          "Portale Giovani Comune di Firenze",
+          "LavoroAnnunci",
+          "Jobijoba"
         ],
-        "notes": "Scansione pomeridiana completa su 60 fonti indipendenti e 68 query reali. Inserite tre offerte verificate e non duplicate: Stock Keeper luxury a Firenze, magazziniere mulettista ad Arezzo e addetto/a vendita full-time a Montevarchi. Ricontrollate direttamente tutte le 162 offerte attive; disattivati tre annunci: confezionamento alimentare a San Giovanni Valdarno e magazziniere mulettista a Montevarchi perché le pagine Openjobmetis restituiscono HTTP 404, commesso/a al mercatino di Natale di Arezzo perché Indeed lo dichiara esplicitamente scaduto. Escluse opportunità duplicate, fuori geografia, fuori profilo o riservate a categorie non confermate. Le pagine non accessibili senza prova certa di chiusura sono rimaste attive. firstSeenAt e firstSeenRun delle offerte già presenti sono rimasti invariati. Nessuna candidatura o comunicazione inviata."
+        "notes": "Scansione mattutina completa su 60 fonti indipendenti e 68 query reali. Inserite tre offerte verificate e non duplicate: preparazione ordini e imballaggio a Figline e Incisa Valdarno, controllo amministrativo del magazzino ad Arezzo e vendita di artigianato toscano a Firenze. Ricontrollate direttamente tutte le 162 offerte attive; disattivati tre annunci con prova certa di chiusura: vendita full-time a Montevarchi e infopoint a Figline perché le pagine restituiscono HTTP 410, stand fieristico a Figline perché la pagina restituisce HTTP 404 e l'evento è iniziato. Le pagine non accessibili senza prova certa di chiusura sono rimaste attive. firstSeenAt e firstSeenRun delle offerte già presenti sono rimasti invariati. Nessuna candidatura o comunicazione inviata."
       }
     }
   }
